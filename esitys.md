@@ -355,3 +355,38 @@ Maven-skriptat voi konvertoida suoraan Gradle-skriptoiksi
 
 --
 
+### Gradle kokonaisuutena
+
+--
+
+### Gradle kokonaisuutena
+
+--
+
+### Gradle kokonaisuutena
+
+--
+
+### Gradle kokonaisuutena
+
+--
+
+### Automaatio muualla
+
+--
+
+### Grails
+
+--
+
+### Grails
+
+--
+
+### Grails
+
+--
+
+### Grails
+
+--
