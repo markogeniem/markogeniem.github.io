@@ -345,8 +345,6 @@ ant.buildDir = 'esimerkki'
 println ant.buildDir
 ```
 
-Migraation jälkeen build comparison varmistaa, että uusi ja vanha järjestelmä luovat yhtenevät lopputulokset.
-
 --
 
 ### Yhteensopivuus
