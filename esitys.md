@@ -26,52 +26,52 @@ http://www.geniem.com/
 
 ### Automaatio
 
-Jokainen käsin tehty operaatio:
-- Hidastaa kehityssykliä
-- Luo virhemahdollisuuksia
-- Aiheuttaa henkilöriippuvuuksia
+Jokainen käsin tehty operaatio
+- hidastaa kehityssykliä
+- luo virhemahdollisuuksia
+- aiheuttaa henkilöriippuvuuksia
 
 --
 
 ### Automaatio
 
-Perustyyppejä:
-- On-demand
-- Ajastettu
-- Liipaistu
+Perustyyppejä
+- on-demand
+- ajastettu
+- liipaistu
 
 --
 
 ### Automaatio
 
 On-demand
-- Komentoriviltä tai työkalusta
-- Vaatii käyttäjäaloitteen
-- Kehitysvaiheeseen
-- Toiminnallisuuden testaamiseen
-- Testien ajo
-- Lokaali deployment
+- komentoriviltä tai työkalusta
+- vaatii käyttäjäaloitteen
+- kehitysvaiheeseen
+- toiminnallisuuden testaamiseen
+- testien ajo
+- lokaali deployment
 
 --
 
 ### Automaatio
 
 Ajastettu
-- Tietyin aikavälein ajettava
-- Ei käyttäjäinteraktiota
-- Päivittäinen build
-- Projektin tilan seuranta
-- Ei varsinainen deployment
+- tietyin aikavälein ajettava
+- ei käyttäjäinteraktiota
+- päivittäinen build
+- projektin tilan seuranta
+- ei varsinainen deployment
 
 --
 
 ### Automaatio
 
 Liipaistu
-- Automaattisesti
-- Ei käyttäjäinteraktiota
-- Versionhallinnasta
-- Tuotantodeployment
+- automaattisesti
+- ei käyttäjäinteraktiota
+- versionhallinnasta
+- tuotantodeployment
 
 --
 
@@ -95,13 +95,13 @@ Enemmän logiikkaa, vähemmän käsitöitä
 ### Ant
 
 * XML-pohjainen
-	- Raskas syntaksi
-	- Paljon tekstiä, vähän sisältöä
-* Ei sisäänrakennettua riippuvuuksienhallintaa
-* Rajoittunut ongelmanhallinta
-* Ei tilanseurantaa
-* Monialustainen
-* Laaja IDE-tuki
+	- raskas syntaksi
+	- paljon tekstiä, vähän sisältöä
+* ei sisäänrakennettua riippuvuuksienhallintaa
+* rajoittunut ongelmanhallinta
+* ei tilanseurantaa
+* monialustainen
+* Llaaja IDE-tuki
 
 --
 
@@ -157,13 +157,13 @@ Enemmän logiikkaa, vähemmän käsitöitä
 ### Maven
 
 * XML-pohjainen
-	- Raskas syntaksi
-	- Paljon tekstiä, vähän sisältöä
-* Riippuvuuksienhallinta
-* Projekteilla erityinen rakenne
-	- Automatisoituja toimintoja rakenteen pohjalta
-* Monialustainen
-* Laaja IDE-tuki
+	- raskas syntaksi
+	- paljon tekstiä, vähän sisältöä
+* riippuvuuksienhallinta
+* projekteilla erityinen rakenne
+	- automatisoituja toimintoja rakenteen pohjalta
+* monialustainen
+* laaja IDE-tuki
 
 --
 
@@ -190,9 +190,9 @@ Enemmän logiikkaa, vähemmän käsitöitä
 ### Gradle
 
 * Groovy-pohjainen
-* Riippuvuuksienhallinta
-* Laajennettavissa
-* Taaksepäin yhteensopiva
+* riippuvuuksienhallinta
+* laajennettavissa
+* taaksepäin yhteensopiva
 
 --
 
@@ -216,10 +216,10 @@ apply plugin: 'java'
 ### Groovy?
 
 Java-johdannainen
-* Dynaaminen
-* Modernien kielien ominaisuuksia
-* Kevyempi syntaksi
-* Nopeasti opittavissa
+* dynaaminen
+* modernien kielien ominaisuuksia
+* kevyempi syntaksi
+* nopeasti opittavissa
 * Java-kirjastojen käyttö natiivisti
 
 --
@@ -254,9 +254,7 @@ Java-pohjainen dynaaminen kieli, jonka Java-kehittäjät oppivat nopeasti.
 
 Groovy- ja Java-koodia voi sekoittaa.
 
-Paljon muuta.
-
-http://groovy.codehaus.org/
+Paljon muuta : http://groovy.codehaus.org/
 
 --
 
@@ -295,7 +293,7 @@ http://plugins.gradle.org/
 	* Jetty
 	* Maven
 	* OSGi
-	* ivy-publish (Incubating)
+	* Ivy-publish (Incubating)
 --
 
 ### Pluginit
@@ -306,6 +304,7 @@ http://plugins.gradle.org/
 	* CodeNarc
 	* IntelliJ IDEA
 	* Sonar
+	* Sublime
 	* Visual Studio (Incubating)
 --
 
@@ -313,7 +312,7 @@ http://plugins.gradle.org/
 
 * Frontend
 	* Grunt/Gulp/Node
-	* lint/minify/gzip js
+	* Lint/Minify/Gzip JS
 	* Docker
 	* Vagrant
 	* Markdown
@@ -345,6 +344,9 @@ Ant-muuttujat ovat käytettävissä Gradle-skriptasta
 ant.buildDir = 'esimerkki'
 println ant.buildDir
 ```
+
+Migraation jälkeen build comparison varmistaa, että uusi ja vanha järjestelmä luovat yhtenevät lopputulokset.
+
 --
 
 ### Yhteensopivuus
@@ -353,25 +355,43 @@ Maven-skriptat voi konvertoida suoraan Gradle-skriptoiksi
 * maven2gradle
 * Build Init Plugin
 
---
+Maven-tyyliset hakemistorakenteet automaattisesti tuettuina.
 
-### Gradle kokonaisuutena
-
---
-
-### Gradle kokonaisuutena
+Migraation jälkeen build comparison varmistaa, että uusi ja vanha järjestelmä luovat yhtenevät lopputulokset.
 
 --
 
-### Gradle kokonaisuutena
+
+### Gradle kokonaisuutena 1/3
+
+Gradlen hyötykäyttö ohjelmistokehitysprosessissa
+* kehitysympäristön pohjatyöt
+* projektin aloittaminen
+* riippuvuuksien hallinta
 
 --
 
-### Gradle kokonaisuutena
+### Gradle kokonaisuutena 2/3
+
+Gradlen hyötykäyttö ohjelmistokehitysprosessissa
+* kehitysympäristön ajaminen
+* testien ajaminen
+* uusien kehitysympäristöjen luonti
+
+--
+
+### Gradle kokonaisuutena 3/3
+
+Gradlen hyötykäyttö ohjelmistokehitysprosessissa
+* deploy/publish
+* ohjelmiston tason seuranta
+* raportointi
 
 --
 
 ### Automaatio muualla
+
+Jos kehitysympäristön ja sen ympärillä tapahtuvat asiat voi automatisoida, niin miksi ei sovelluksen sisälläkin tapahtuvat asiat?
 
 --
 
