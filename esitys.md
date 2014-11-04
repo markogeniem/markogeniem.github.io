@@ -4,6 +4,7 @@ author:
 	name: Marko Lenkkeri
 	url: http://www.geniem.com/
 	twitter: markogeniem
+	email: marko@geniem.com
 
 --
 
@@ -395,16 +396,40 @@ Jos kehitysympäristön ja sen ympärillä tapahtuvat asiat voi automatisoida, n
 
 ### Grails
 
---
-
-### Grails
-
---
-
-### Grails
+Mikä on Grails ?
+* J2EE Web development framework
+* Hibernate ja Spring frameworkkien tiukka integraatio
+* Java/Groovy/Scala
+* DSL, CoC, DRY, MVC
 
 --
 
 ### Grails
+
+Hyötyjä
+* Riippuvuuksien injektointi
+* Domain-luokkien ja tietokannan tiukka sidonta
+* Plugin-järjestelmä
+* Scaffolding
+* Templatet
+* Riippuvuuksien hallinta
+
+--
+
+### Grails esimerkkejä 1/2
+
+--
+
+### Grails esimerkkejä 2/2
+
+--
+
+### Kysymyksiä?
+
+www.gradle.org
+www.grails.org
+
+marko@geniem.com
+@markogeniem
 
 --
