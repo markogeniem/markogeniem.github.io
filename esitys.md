@@ -1,11 +1,11 @@
 title: Automaatio ketterän kehityksen tukena
-output: index.html
+
 author:
 	name: Marko Lenkkeri
 	url: http://www.geniem.com/
 	twitter: markogeniem
 	email: marko@geniem.com
-
+output: index.html
 --
 
 ## QASW-Summit
@@ -418,18 +418,75 @@ Hyötyjä
 
 ### Grails esimerkkejä 1/2
 
+```
+class EntryPointAccess {
+	Date created
+	boolean passwordSet
+	EntryPoint entryPoint
+
+	static belongsTo = [user:User]
+
+	static constraints = {
+		created nullable:true
+		passwordSet nullable:false
+		entryPoint nullable:false
+    	}
+	
+	static mapping = {
+		user index:'user_and_passwordSet_idx'
+		passwordSet index:'user_and_passwordSet_idx'
+		created index:'created_idx'
+	}
+	
+	def beforeInsert()
+	{
+		created = new Date()
+	}
+}
+```
+
 --
 
 ### Grails esimerkkejä 2/2
+
+```
+class EntryPointAccessController
+{
+	def show(EntryPointAccess entryPointAccessInstance) {
+		respond entryPointAccessInstance
+	}
+
+	def create() {
+		respond new EntryPointAccess(params)
+	}
+
+	@Transactional
+	def update(EntryPointAccess entryPointAccessInstance) {
+		if (entryPointAccessInstance == null) {
+			notFound()
+			return
+		}
+
+		if (entryPointAccessInstance.hasErrors()) {
+			respond entryPointAccessInstance.errors, view:'edit'
+			return
+		}
+
+		entryPointAccessInstance.save flush:true
+		respond entryPointAccessInstance, [status: OK]
+	}
+}
+```
 
 --
 
 ### Kysymyksiä?
 
-www.gradle.org
-www.grails.org
+http://www.gradle.org
+
+http://www.grails.org
 
 marko@geniem.com
+
 @markogeniem
 
---

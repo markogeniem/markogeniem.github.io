@@ -811,22 +811,69 @@ println ant.buildDir</code></pre>
   </div>
   <div class="slide hidden" id="slide-36">
     <section class="slide-content"><h3 id="grails-esimerkkej-1-2">Grails esimerkkejä 1/2</h3>
+<pre><code>class EntryPointAccess {
+    Date created
+    boolean passwordSet
+    EntryPoint entryPoint
+
+    static belongsTo = [user:User]
+
+    static constraints = {
+        created nullable:true
+        passwordSet nullable:false
+        entryPoint nullable:false
+        }
+
+    static mapping = {
+        user index:&#39;user_and_passwordSet_idx&#39;
+        passwordSet index:&#39;user_and_passwordSet_idx&#39;
+        created index:&#39;created_idx&#39;
+    }
+
+    def beforeInsert()
+    {
+        created = new Date()
+    }
+}</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-37">
     <section class="slide-content"><h3 id="grails-esimerkkej-2-2">Grails esimerkkejä 2/2</h3>
+<pre><code>class EntryPointAccessController
+{
+    def show(EntryPointAccess entryPointAccessInstance) {
+        respond entryPointAccessInstance
+    }
+
+    def create() {
+        respond new EntryPointAccess(params)
+    }
+
+    @Transactional
+    def update(EntryPointAccess entryPointAccessInstance) {
+        if (entryPointAccessInstance == null) {
+            notFound()
+            return
+        }
+
+        if (entryPointAccessInstance.hasErrors()) {
+            respond entryPointAccessInstance.errors, view:&#39;edit&#39;
+            return
+        }
+
+        entryPointAccessInstance.save flush:true
+        respond entryPointAccessInstance, [status: OK]
+    }
+}</code></pre>
 </section>
   </div>
   <div class="slide hidden" id="slide-38">
     <section class="slide-content"><h3 id="kysymyksi-">Kysymyksiä?</h3>
-<p>www.gradle.org
-www.grails.org</p>
-<p>marko@geniem.com
-@markogeniem</p>
+<p><a href="http://www.gradle.org">http://www.gradle.org</a></p>
+<p><a href="http://www.grails.org">http://www.grails.org</a></p>
+<p>marko@geniem.com</p>
+<p>@markogeniem</p>
 </section>
-  </div>
-  <div class="slide hidden" id="slide-39">
-    <section class="slide-content"></section>
   </div>
 
   <div class="controls">
