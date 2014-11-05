@@ -102,7 +102,7 @@ Enemmän logiikkaa, vähemmän käsitöitä
 * rajoittunut ongelmanhallinta
 * ei tilanseurantaa
 * monialustainen
-* Llaaja IDE-tuki
+* laaja IDE-tuki
 
 --
 
@@ -219,7 +219,7 @@ apply plugin: 'java'
 Java-johdannainen
 * dynaaminen
 * modernien kielien ominaisuuksia
-* kevyempi syntaksi
+* kevyt syntaksi
 * nopeasti opittavissa
 * Java-kirjastojen käyttö natiivisti
 
@@ -321,7 +321,7 @@ http://plugins.gradle.org/
 
 ### Yhteensopivuus
 
-Ant ja Maven ovat monessa paikassa käytettyjä. Miksi siis haaskata tehtyä työtä?
+Ant ja Maven ovat laajasti käytettyjä. Miksi siis haaskata tehtyä työtä?
 
 --
 
