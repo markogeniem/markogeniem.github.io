@@ -407,12 +407,12 @@ Mikä on Grails ?
 ### Grails
 
 Hyötyjä
-* Riippuvuuksien injektointi
-* Domain-luokkien ja tietokannan tiukka sidonta
-* Plugin-järjestelmä
-* Scaffolding
-* Templatet
-* Riippuvuuksien hallinta
+* riippuvuuksien injektointi
+* domain-luokkien ja tietokannan tiukka sidonta
+* plugin-järjestelmä
+* scaffolding
+* templatet
+* riippuvuuksien hallinta
 
 --
 
