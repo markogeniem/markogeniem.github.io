@@ -101,6 +101,11 @@ Ohjelmointi on ohjeiden antamista tietokoneelle, jossa yksiselitteiset käskyt o
 
 Suurin osa nykyaikaisesta toiminnasta nojautuu ohjelmoituihin järjestelmiin. Digiboksin nauhoitusasetuksien ohjelmoinnista lähtien näkyy jatkuvasti arjessa kaikessa mahdollisessa. Kotiautomaatio on jatkuvasti kasvava harraste ja ammattiala.
 
+--
+
+### Mitä ohjelmointi on?
+
+Koodari vastaa:
 Ohjelmointikieli on tarkkaan määritelty kieli, jolla tuotettu sisältö pystytään muuttamaan ohjeiksi tietokoneelle.
 
 Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta, ja kaikki nojaa useisiin abstraktiokerroksiin.
