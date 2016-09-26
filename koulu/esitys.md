@@ -198,14 +198,21 @@ Luokat 3-6
 - lähemmäksi ohjelmointia
 - visuaalinen ympäristö (Scratch jne.)
 
+--
+
+### Opintosuunnitelman muutokset
+
+Miten opettaa ohjelmointia?
+
+Entäs ajattelutapaa?
+
+Yhdistäminen muihin oppiaineisiin?
+
 http://koodi2016.fi/
 
 --
 
-
 ### Tietojenkäsittelytiede
-
-Ohjelmointikieliet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin. Vuosien mittaan on myös kehitetty jatkuvasti lisää uusia kieliä tai "murteita" kielistä.
 
 Ensimmäinen ohjelmoitava laite: n. 800 eaa., automaattinen luutunsoitin.
 
@@ -230,7 +237,9 @@ Sanastoa:
 
 ### Tietojenkäsittelytiede
 
-Ohjelmointikieliä
+Ohjelmointikieliet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin. Vuosien mittaan on myös kehitetty jatkuvasti lisää uusia kieliä tai "murteita" kielistä.
+
+Ohjelmointikieliä:
 - Assembly
 - Pascal
 - C
@@ -242,7 +251,7 @@ Ohjelmointikieliä
 
 ### Tietojenkäsittelytiede
 
-Ohjelmointiparadigmat
+Ohjelmointiparadigmoja:
 - konekieli
 - proseduraalinen ohjelmointi
 - olio-ohjelmointi
