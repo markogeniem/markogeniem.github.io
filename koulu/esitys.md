@@ -12,6 +12,7 @@ theme: select/cleaver-select-theme
 
 # Opettajien koodikoulu
 ## Ohjelmoinnin ja koodikoulun perusteita
+## markogeniem.github.io/koulu/
 
 --
 
@@ -85,6 +86,31 @@ Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta.
 
 --
 
+### Yhteisharjoitus #1 1/2
+
+Käytännön harjoitus:
+- jakaudutaan ryhmiin
+- ryhmät valitsevat yhden jäsenen "tietokoneeksi"
+- muu ryhmä "ohjelmoi" tietokonetta :
+  Tehkää ohjeet niin, että "tietokone" rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)
+- ohjeiden tekemiseen aikaa 5min alkuperäisen mallin vastaanottamisesta
+- tietokone ei saa nähdä alkuperäistä rakennelmaa
+
+--
+
+### Yhteisharjoitus #1 2/2
+
+Arviointi
+- kuinka hyvin tietokone suoriutui tehtävästä?
+- kuinka hyvin ohjelmoijat suoriutuivat tehtävästä?
+
+Miten tämä vertautuu ohjelmointiin?
+- ensimmäinen versio lähdekoodista
+- testaus
+- bugien, l. ohjelmavirheiden havaitseminen ja korjaaminen
+
+--
+
 ### Mitä ohjelmoija tekee 1/2
 
 Ohjelmoijan työnkuvaan kuuluu monia erilaisia tehtäviä:
@@ -107,20 +133,6 @@ Ohjelmoijat erikoistuvat:
 - arkkitehtuuri
 - tietokannat
 - jne
-
---
-
-### Yhteisharjoitus #1 1/2
-
-Käytännön harjoitus:
-- jakaudutaan ryhmiin
-- ryhmät valitsevat yhden jäsenen "tietokoneeksi"
-- muu ryhmä "ohjelmoi" tietokonetta rakentamaan
-- 
-
---
-
-### Yhteisharjoitus #1 2/2
 
 --
 
