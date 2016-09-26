@@ -756,7 +756,7 @@ kbd {
 <li>jakaudutaan ryhmiin</li>
 <li>ryhmät valitsevat yhden jäsenen &quot;tietokoneeksi&quot;</li>
 <li>muu ryhmä &quot;ohjelmoi&quot; tietokonetta :
-Tehkää ohjeet niin, että &quot;tietokone&quot; rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)</li>
+Tehkää ohjeet niin, että tietokone rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)</li>
 <li>suunnitteluun 2min, ohjeiden tekemiseen aikaa 5min alkuperäisen mallin vastaanottamisesta</li>
 <li>tietokone ei saa nähdä alkuperäistä rakennelmaa</li>
 </ul>
@@ -917,7 +917,116 @@ rt 90</code></pre>
       <div class="slide hidden" id="slide-24">
         <div data-id="24" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
-<p>Ohjelmointikieliet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin. Vuosien mittaan on myös kehitetty jatkuvasti lisää uusia kieliä tai &quot;murteita&quot; kielistä.</p>
+<p>Perusrakenteita:</p>
+<ul>
+<li>ehtolause (if)</li>
+<li>silmukat (for, while)</li>
+<li>valintalauseet (switch/case)</li>
+<li>poikkeus (exception)</li>
+<li>sulkeuma (closure)</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-25">
+        <div data-id="25" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Ehtolause</p>
+<pre><code>String teksti = &quot;abcd&quot;;
+if(teksti.contains(&quot;ab&quot;)) {
+  System.out.println(&quot;Löytyi&quot;);
+} else {
+  System.out.println(&quot;Ei löytynyt&quot;);
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-26">
+        <div data-id="26" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Ehtolause</p>
+<pre><code>int[] numerot = {1,2,3,4};
+if(numerot[0] == 1) {
+  System.out.println(&quot;Löytyi&quot;);
+} else {
+  System.out.println(&quot;Ei löytynyt&quot;);
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-27">
+        <div data-id="27" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Silmukka</p>
+<pre><code>int[] numerot = {1,2,3,4};
+for(int i : numerot) {
+  System.out.println(i);
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-28">
+        <div data-id="28" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Silmukka</p>
+<pre><code>int[] numerot = {1,2,3,4};
+int i = 0;
+while (i&lt;numerot.length) {
+  System.out.println(i);
+  i++;
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-29">
+        <div data-id="29" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Valintalause</p>
+<pre><code>int i = 3;
+switch (i) {
+  case 1: System.out.println(&quot;Ykkönen&quot;); break;
+  case 2: System.out.println(&quot;Kakkonen&quot;); break;
+  case 3: System.out.println(&quot;Kolmonen&quot;); break;
+  default : System.out.println(&quot;Iso luku&quot;); break;
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-30">
+        <div data-id="30" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Poikkeus</p>
+<pre><code>int[] numerot = {1,2,3,4};
+int i = 0;
+if(numerot[i] &lt; 3) {
+  throw new Exception(&quot;Listan ensimmäinen numero on liian pieni!&quot;);
+} else {
+return numerot[i];
+}</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-31">
+        <div data-id="31" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Sulkeuma</p>
+<pre><code>def numerot = [1,2,3,4]
+return numerot.findIndexOf({value%2!=0 &amp;&amp; value&gt;1})</code></pre>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-32">
+        <div data-id="32" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Ohjelmointikielet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin, myös ikä vaikuttaa.</p>
 <p>Ohjelmointikieliä:</p>
 <ul>
 <li>Assembly</li>
@@ -931,8 +1040,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-25">
-        <div data-id="25" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-33">
+        <div data-id="33" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Ohjelmointiparadigmoja:</p>
 <ul>
@@ -945,8 +1054,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-26">
-        <div data-id="26" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-34">
+        <div data-id="34" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Konekieli</p>
 <ul>
@@ -958,8 +1067,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-27">
-        <div data-id="27" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-35">
+        <div data-id="35" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Proseduraalinen ohjelmointi</p>
 <ul>
@@ -973,8 +1082,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-28">
-        <div data-id="28" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-36">
+        <div data-id="36" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Olio-ohjelmointi</p>
 <ul>
@@ -986,8 +1095,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-29">
-        <div data-id="29" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-37">
+        <div data-id="37" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Funktionaalinen ohjelmointi</p>
 <ul>
@@ -1000,8 +1109,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-30">
-        <div data-id="30" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-38">
+        <div data-id="38" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Tyyppijärjestelmä:</p>
 <ul>
@@ -1013,8 +1122,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-31">
-        <div data-id="31" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-39">
+        <div data-id="39" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Tyypitetty kieli:</p>
 <ul>
@@ -1030,8 +1139,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-32">
-        <div data-id="32" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-40">
+        <div data-id="40" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Staattinen tyypitys:</p>
 <ul>
@@ -1045,8 +1154,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-33">
-        <div data-id="33" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-41">
+        <div data-id="41" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
 <p>Heikko tyypitys:</p>
 <ul>
@@ -1060,16 +1169,32 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-34">
-        <div data-id="34" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-42">
+        <div data-id="42" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="tietojenk-sittelytiede">Tietojenkäsittelytiede</h3>
+<p>Ja kaikkea muuta:</p>
+<ul>
+<li>kompleksisuus</li>
+<li>laskettavuus</li>
+<li>koneoppiminen</li>
+<li>algoritmiikka</li>
+<li>kryptografia</li>
+<li>jne.</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-43">
+        <div data-id="43" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="koodikoulu-fi">koodikoulu.fi</h3>
 <p><a href="http://www.koodikoulu.fi/">http://www.koodikoulu.fi/</a></p>
 </section>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-35">
-        <div data-id="35" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-44">
+        <div data-id="44" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="turtle-roy-harjoitteita">Turtle Roy -harjoitteita</h3>
 <p>Tehdään yhdessä:</p>
 <p><a href="http://www.koodikirja.fi/luku1/">http://www.koodikirja.fi/luku1/</a></p>
@@ -1077,8 +1202,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-36">
-        <div data-id="36" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-45">
+        <div data-id="45" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="linkkej-">Linkkejä</h3>
 <p><a href="http://www.koodikoulu.fi/">http://www.koodikoulu.fi/</a></p>
 <p><a href="http://www.koodi2016.fi/">http://www.koodi2016.fi/</a></p>
@@ -1088,8 +1213,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-37">
-        <div data-id="37" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-46">
+        <div data-id="46" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="kysymyksi-t-st-materiaalista-">Kysymyksiä tästä materiaalista?</h3>
 <p>artturi@geniem.com</p>
 <p>marko@geniem.com</p>
@@ -1097,8 +1222,8 @@ rt 90</code></pre>
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-38">
-        <div data-id="38" class="slide-overlay"></div>
+      <div class="slide hidden" id="slide-47">
+        <div data-id="47" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="verkkoty-skentelyjakso">Verkkotyöskentelyjakso</h3>
 <p>Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen,
 ympäristönä ReadIT (opastus ensi viikolla). Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.</p>
@@ -1109,8 +1234,8 @@ ympäristönä ReadIT (opastus ensi viikolla). Ideana pitää yksi tai useampi o
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden  " id="slide-39">
-        <div data-id="39" class="slide-overlay"></div>
+      <div class="slide hidden  " id="slide-48">
+        <div data-id="48" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="loppu">Loppu</h3>
 <p>Kysymyksiä?</p>
 <p>Kommentteja?</p>

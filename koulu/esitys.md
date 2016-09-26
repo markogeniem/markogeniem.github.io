@@ -119,7 +119,7 @@ Käytännön harjoitus:
 - jakaudutaan ryhmiin
 - ryhmät valitsevat yhden jäsenen "tietokoneeksi"
 - muu ryhmä "ohjelmoi" tietokonetta :
-  Tehkää ohjeet niin, että "tietokone" rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)
+  Tehkää ohjeet niin, että tietokone rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)
 - suunnitteluun 2min, ohjeiden tekemiseen aikaa 5min alkuperäisen mallin vastaanottamisesta
 - tietokone ei saa nähdä alkuperäistä rakennelmaa
 
@@ -247,7 +247,112 @@ Sanastoa:
 
 ### Tietojenkäsittelytiede
 
-Ohjelmointikieliet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin. Vuosien mittaan on myös kehitetty jatkuvasti lisää uusia kieliä tai "murteita" kielistä.
+Perusrakenteita:
+- ehtolause (if)
+- silmukat (for, while)
+- valintalauseet (switch/case)
+- poikkeus (exception)
+- sulkeuma (closure)
+
+--
+
+### Tietojenkäsittelytiede
+
+Ehtolause
+```
+String teksti = "abcd";
+if(teksti.contains("ab")) {
+  System.out.println("Löytyi");
+} else {
+  System.out.println("Ei löytynyt");
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Ehtolause
+```
+int[] numerot = {1,2,3,4};
+if(numerot[0] == 1) {
+  System.out.println("Löytyi");
+} else {
+  System.out.println("Ei löytynyt");
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Silmukka
+```
+int[] numerot = {1,2,3,4};
+for(int i : numerot) {
+  System.out.println(i);
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Silmukka
+```
+int[] numerot = {1,2,3,4};
+int i = 0;
+while (i<numerot.length) {
+  System.out.println(i);
+  i++;
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Valintalause
+```
+int i = 3;
+switch (i) {
+  case 1: System.out.println("Ykkönen"); break;
+  case 2: System.out.println("Kakkonen"); break;
+  case 3: System.out.println("Kolmonen"); break;
+  default : System.out.println("Iso luku"); break;
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Poikkeus
+```
+int[] numerot = {1,2,3,4};
+int i = 0;
+if(numerot[i] < 3) {
+  throw new Exception("Listan ensimmäinen numero on liian pieni!");
+} else {
+return numerot[i];
+}
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Sulkeuma
+```
+def numerot = [1,2,3,4]
+return numerot.findIndexOf({value%2!=0 && value>1})
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Ohjelmointikielet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin, myös ikä vaikuttaa.
 
 Ohjelmointikieliä:
 - Assembly
@@ -346,6 +451,18 @@ Heikko tyypitys:
 
 Vahva tyypitys:
 - muuttujaa voi käsitellä vain tyyppinsä mukaisilla operaatioilla
+
+--
+
+### Tietojenkäsittelytiede
+
+Ja kaikkea muuta:
+- kompleksisuus
+- laskettavuus
+- koneoppiminen
+- algoritmiikka
+- kryptografia
+- jne.
 
 --
 
