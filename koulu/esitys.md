@@ -89,6 +89,8 @@ Miten ohjelmointi vaikuttaa arjessa ja miten ohjelmoinnin tuotokset näkyy siin�
 
 Miksi ohjelmointi on tärkeää?
 
+Mikä on ohjelmointikieli, ja miten ne toimivat?
+
 --
 
 ### Mitä ohjelmointi on?
@@ -97,9 +99,11 @@ Koodari vastaa:
 
 Ohjelmointi on ohjeiden antamista tietokoneelle, jossa yksiselitteiset käskyt ohjaavat toistuvaa toimintaa.
 
+Suurin osa nykyaikaisesta toiminnasta nojautuu ohjelmoituihin järjestelmiin. Digiboksin nauhoitusasetuksien ohjelmoinnista lähtien näkyy jatkuvasti arjessa kaikessa mahdollisessa. Kotiautomaatio on jatkuvasti kasvava harraste ja ammattiala.
+
 Ohjelmointikieli on tarkkaan määritelty kieli, jolla tuotettu sisältö pystytään muuttamaan ohjeiksi tietokoneelle.
 
-Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta.
+Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta, ja kaikki nojaa useisiin abstraktiokerroksiin.
 
 --
 
@@ -347,6 +351,8 @@ http://www.koodikoulu.fi/
 
 ### Turtle Roy -harjoitteita
 
+Tehdään yhdessä:
+
 http://www.koodikirja.fi/luku1/
 
 --
@@ -356,6 +362,8 @@ http://www.koodikirja.fi/luku1/
 http://www.koodikoulu.fi/
 
 http://www.koodi2016.fi/
+
+http://www.koodikirja.fi/luku1/
 
 http://rosa.utu.fi/juniorkoodari/
 
