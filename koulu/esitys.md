@@ -252,6 +252,45 @@ Ohjelmointiparadigmat
 
 ### Tietojenkäsittelytiede
 
+Konekieli
+- binäärimuodossa oleva data
+- yksinkertaiset toiminnallisuudet prosessorilta
+- suoraan ajettavissa prosessorilla
+
+--
+
+### Tietojenkäsittelytiede
+
+Proseduraalinen ohjelmointi
+- lähdekoodi jaoteltu proseduureihin
+- proseduurit voivat kutsua toisia
+- vähemmän toistoa
+- tieto välitetään seuraavalle vaiheelle
+- proseduurit käsittelevät tietoa
+
+--
+
+### Tietojenkäsittelytiede
+
+Olio-ohjelmointi
+- luokat määrittelevät olion "piirustukset"
+- oliot sisältävät piirustuksien mukaisesti eri tietoja, mutta eri arvoilla toisiin saman luokan olioihin nähden
+- olioissa myös toiminnallisuuksia olion sisältämään tietoon nähden
+
+--
+
+### Tietojenkäsittelytiede
+
+Funktionaalinen ohjelmointi
+- tieto on funktioita
+- annetut arvot eivät muutu
+- vrt. matemaattinen funktio
+- vähemmän sivuvaikutuksia
+
+--
+
+### Tietojenkäsittelytiede
+
 Tyyppijärjestelmä:
 - tyypitetty ja tyypitön
 - staattinen ja dynaaminen
