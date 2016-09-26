@@ -12,7 +12,7 @@ theme: select/cleaver-select-theme
 
 # Opettajien koodikoulu
 ## Ohjelmoinnin ja koodikoulun perusteita
-## markogeniem.github.io/koulu/
+## http://markogeniem.github.io/koulu/
 
 --
 
@@ -66,17 +66,17 @@ Ohjelmointi kaikille tutuksi
 
 --
 
-### Mitä ohjelmointi on? 1/2
+### Mitä ohjelmointi on?
 
 Mitä ohjelmointi on? 
 
-Miten ohjelmointi vaikuttaa teidän elämiinne tai ohjelmoinnin tuotokset näkyvät niissä?
+Miten ohjelmointi vaikuttaa arjessa ja miten ohjelmoinnin tuotokset näkyy siinä?
 
 Miksi ohjelmointi on tärkeää?
 
 --
 
-### Mitä ohjelmointi on? 2/2
+### Mitä ohjelmointi on?
 
 Koodari vastaa:
 
@@ -88,19 +88,19 @@ Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta.
 
 --
 
-### Yhteisharjoitus 1/2
+### Yhteisharjoitus
 
 Käytännön harjoitus:
 - jakaudutaan ryhmiin
 - ryhmät valitsevat yhden jäsenen "tietokoneeksi"
 - muu ryhmä "ohjelmoi" tietokonetta :
   Tehkää ohjeet niin, että "tietokone" rakentaa levyllä olevan rakennelman alusta asti identtiseksi kopioksi alkuperäisestä. Ohjeisiin vain tekstiä, ei piirroksia. (Kynä+paperi tai käyttäkää tietokonetta)
-- ohjeiden tekemiseen aikaa 5min alkuperäisen mallin vastaanottamisesta
+- suunnitteluun 2min, ohjeiden tekemiseen aikaa 5min alkuperäisen mallin vastaanottamisesta
 - tietokone ei saa nähdä alkuperäistä rakennelmaa
 
 --
 
-### Yhteisharjoitus 2/2
+### Yhteisharjoitus
 
 Arviointi
 - kuinka hyvin tietokone suoriutui tehtävästä?
@@ -113,7 +113,7 @@ Miten tämä vertautuu ohjelmointiin?
 
 --
 
-### Mitä ohjelmoija tekee 1/2
+### Mitä ohjelmoija tekee
 
 Ohjelmoijan työnkuvaan kuuluu monia erilaisia tehtäviä:
 - suunnittelee
@@ -126,9 +126,10 @@ Ohjelmoijan työnkuvaan kuuluu monia erilaisia tehtäviä:
 
 --
 
-### Mitä ohjelmoija tekee 2/2
+### Mitä ohjelmoija tekee
 
 Ohjelmoijat erikoistuvat:
+- ohjelmointikielet
 - käyttöliittymät
 - taustajärjestelmät
 - alustajärjestelmät
@@ -144,8 +145,6 @@ http://turtle-roy.herokuapp.com/
 
 ```
 fd 50
-```
-```
 rt 90
 ```
 
@@ -163,13 +162,13 @@ Miten meni?
 
 ### Käytännön haasteet
 
-Nuorille:
+Nuorilla havaittuja haasteita:
 - 360 astetta
 - syntaksin tarkkuus
 
 --
 
-### Opintosuunnitelman muutokset 1/2
+### Opintosuunnitelman muutokset
 
 Luokat 1-2
 - pohjustetaan ohjelmointia
@@ -178,20 +177,31 @@ Luokat 1-2
 
 --
 
-### Opintosuunnitelman muutokset 2/2
+### Opintosuunnitelman muutokset
 
 Luokat 3-6
 - lähemmäksi ohjelmointia
 - visuaalinen ympäristö
 
-koodi2016.fi
+http://koodi2016.fi/
 
+--
+
+### Tietojenkäsittelytiede
+
+Ohjelmointikielet
+
+--
+
+### Tietojenkäsittelytiede
+
+Ohjelmointiparadigmat (konekieli, proseduraalinen, olio, funktionaalinen)
 
 --
 
 ### koodikoulu.fi
 
-koodikoulu.fi
+http://www.koodikoulu.fi/
 
 --
 
@@ -203,11 +213,11 @@ http://www.koodikirja.fi/luku1/
 
 ### Linkkejä
 
-www.koodikoulu.fi
+http://www.koodikoulu.fi/
 
-www.koodi2016.fi
+http://www.koodi2016.fi/
 
-rosa.utu.fi/juniorkoodari/
+http://rosa.utu.fi/juniorkoodari/
 
 --
 
@@ -219,7 +229,12 @@ marko@geniem.com
 
 --
 
-### Turtle Roy -tutor
+### Verkkotyöskentelyjakso
+
+Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen,
+ympäristönä ReadIT (opastus ensi viikolla). Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.
+
+Tutorina toimii:
 
 Heikki Hutri
 
