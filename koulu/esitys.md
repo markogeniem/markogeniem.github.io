@@ -70,7 +70,9 @@ Ohjelmointi kaikille tutuksi
 
 Mitä ohjelmointi on? 
 
-Miten ohjelmointi vaikuttaa teidän elämiinne?
+Miten ohjelmointi vaikuttaa teidän elämiinne tai ohjelmoinnin tuotokset näkyvät niissä?
+
+Miksi ohjelmointi on tärkeää?
 
 --
 
@@ -86,7 +88,7 @@ Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta.
 
 --
 
-### Yhteisharjoitus #1 1/2
+### Yhteisharjoitus 1/2
 
 Käytännön harjoitus:
 - jakaudutaan ryhmiin
@@ -98,7 +100,7 @@ Käytännön harjoitus:
 
 --
 
-### Yhteisharjoitus #1 2/2
+### Yhteisharjoitus 2/2
 
 Arviointi
 - kuinka hyvin tietokone suoriutui tehtävästä?
@@ -136,51 +138,100 @@ Ohjelmoijat erikoistuvat:
 
 --
 
+### Piirretään
+
+http://turtle-roy.herokuapp.com/
+
+```
+fd 50
+```
+```
+rt 90
+```
+
+Itse:
+- neliö
+- kuusikulmio
+
+--
+
+### Arviointi
+
+Miten meni?
+
+--
+
+### Käytännön haasteet
+
+Nuorille:
+- 360 astetta
+- syntaksin tarkkuus
+
+--
+
 ### Opintosuunnitelman muutokset 1/2
 
-Liipaistu
-- automaattisesti
-- ei käyttäjäinteraktiota
-- versionhallinnasta
-- tuotantodeployment
+Luokat 1-2
+- pohjustetaan ohjelmointia
+- yksiselitteiset komennot ihmisille
+- täsmälliset ohjeet, täsmällinen toiminta
 
 --
 
 ### Opintosuunnitelman muutokset 2/2
 
-Enemmän logiikkaa, vähemmän käsitöitä
+Luokat 3-6
+- lähemmäksi ohjelmointia
+- visuaalinen ympäristö
+
+koodi2016.fi
 
 
 --
 
-### Piirretään
-* [Ant](ant.apache.org)
-* [Maven](maven.apache.org)
-* [Gradle](www.gradle.org)
-* [Chef](www.getchef.com)
-* [Puppet](www.puppetlabs.com)
-* [Grunt](gruntjs.com)
+### koodikoulu.fi
+
+koodikoulu.fi
 
 --
 
-### Koekerta
+### Turtle Roy -harjoitteita
 
-* XML-pohjainen
-	- raskas syntaksi
-	- paljon tekstiä, vähän sisältöä
-* ei sisäänrakennettua riippuvuuksienhallintaa
-* rajoittunut ongelmanhallinta
-* ei tilanseurantaa
-* monialustainen
-* laaja IDE-tuki
+http://www.koodikirja.fi/luku1/
 
 --
 
-### Kysymyksiä?
+### Linkkejä
 
 www.koodikoulu.fi
 
-artturi@geniem.com tai marko@geniem.com 
+www.koodi2016.fi
 
-@markogeniem 
+rosa.utu.fi/juniorkoodari/
+
+--
+
+### Kysymyksiä tästä materiaalista?
+
+artturi@geniem.com
+
+marko@geniem.com
+
+--
+
+### Turtle Roy -tutor
+
+Heikki Hutri
+
+hohutr@utu.fi
+
+-- 
+
+### Loppu
+
+Kysymyksiä?
+
+Kommentteja?
+
+Haasteita tai ideoita?
 
