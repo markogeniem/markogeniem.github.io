@@ -274,12 +274,20 @@ Tyypitön kieli:
 ### Tietojenkäsittelytiede
 
 Staattinen tyypitys:
-- operaatiot tyyppikohtaisia
-- tyypillisesti korkeamman abstraktiotason kieli
+- muuttujan tyyppi on kiinteä
 
 Dynaaminen tyypitys:
-- operaatiot kaikille samat
-- matalan abstraktiotason kielet (Assembly)
+- muuttujan tyyppi voi muuttua tai olla määrittelemätön
+
+--
+
+### Tietojenkäsittelytiede
+
+Heikko tyypitys:
+- muuttujaa voi käsitellä kuin toisen tyyppistä muuttujaa
+
+Vahva tyypitys:
+- muuttujaa voi käsitellä vain tyyppinsä mukaisilla operaatioilla
 
 --
 
