@@ -15,6 +15,13 @@ theme: select/cleaver-select-theme
 
 --
 
+### Tärkeimmät ensin
+
+- Kesto 4h
+- Kahvitauko klo 14
+
+--
+
 ### Geniem
 
 http://www.geniem.com/
@@ -51,33 +58,69 @@ Ohjelmointi kaikille tutuksi
 
 --
 
-### Mitä ohjelmointi on
+### Te?
 
-Ohjelmointi on ohjeiden antamista tietokoneelle.
-Yksiselitteiset käskyt
-
---
-
-### Mitä ohjelmoija tekee
-
-On-demand
-- komentoriviltä tai työkalusta
-- vaatii käyttäjäaloitteen
-- kehitysvaiheeseen
-- toiminnallisuuden testaamiseen
-- testien ajo
-- lokaali deployment
+- koulutustausta
+- aiempi kokemus koodikoulusta tai esim. scratch-järjestelmästä
 
 --
 
-### Yhteisharjoitus
+### Mitä ohjelmointi on? 1/2
 
-Ajastettu
-- tietyin aikavälein ajettava
-- ei käyttäjäinteraktiota
-- päivittäinen build
-- projektin tilan seuranta
-- ei varsinainen deployment
+Mitä ohjelmointi on? 
+
+Miten ohjelmointi vaikuttaa teidän elämiinne?
+
+--
+
+### Mitä ohjelmointi on? 2/2
+
+Koodari vastaa:
+
+Ohjelmointi on ohjeiden antamista tietokoneelle, jossa yksiselitteiset käskyt ohjaavat toistuvaa toimintaa.
+
+Ohjelmointikieli on tarkkaan määritelty kieli, jolla tuotettu sisältö pystytään muuttamaan ohjeiksi tietokoneelle.
+
+Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta.
+
+--
+
+### Mitä ohjelmoija tekee 1/2
+
+Ohjelmoijan työnkuvaan kuuluu monia erilaisia tehtäviä:
+- suunnittelee
+- arvioi kestoja
+- koodaa, eli kehittää
+- dokumentoi
+- ylläpitää, myös ympäristöä
+- asiakasrajapinta
+- testaus
+
+--
+
+### Mitä ohjelmoija tekee 2/2
+
+Ohjelmoijat erikoistuvat:
+- käyttöliittymät
+- taustajärjestelmät
+- alustajärjestelmät
+- arkkitehtuuri
+- tietokannat
+- jne
+
+--
+
+### Yhteisharjoitus #1 1/2
+
+Käytännön harjoitus:
+- jakaudutaan ryhmiin
+- ryhmät valitsevat yhden jäsenen "tietokoneeksi"
+- muu ryhmä "ohjelmoi" tietokonetta rakentamaan
+- 
+
+--
+
+### Yhteisharjoitus #1 2/2
 
 --
 
