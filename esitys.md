@@ -84,12 +84,12 @@ Enemmän logiikkaa, vähemmän käsitöitä
 --
 
 ### Työkaluja
-* [Ant](ant.apache.org)
-* [Maven](maven.apache.org)
-* [Gradle](www.gradle.org)
-* [Chef](www.getchef.com)
-* [Puppet](www.puppetlabs.com)
-* [Grunt](gruntjs.com)
+* [Ant](http://ant.apache.org)
+* [Maven](http://maven.apache.org)
+* [Gradle](http://www.gradle.org)
+* [Chef](http://www.getchef.com)
+* [Puppet](http://www.puppetlabs.com)
+* [Grunt](http://gruntjs.com)
 
 --
 
