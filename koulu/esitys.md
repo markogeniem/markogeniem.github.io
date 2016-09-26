@@ -106,6 +106,7 @@ Suurin osa nykyaikaisesta toiminnasta nojautuu ohjelmoituihin järjestelmiin. Di
 ### Mitä ohjelmointi on?
 
 Koodari vastaa:
+
 Ohjelmointikieli on tarkkaan määritelty kieli, jolla tuotettu sisältö pystytään muuttamaan ohjeiksi tietokoneelle.
 
 Tietokone käsittelee alkeislogiikalla binäärimuotoista ohjeistusta, ja kaikki nojaa useisiin abstraktiokerroksiin.
