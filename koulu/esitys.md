@@ -1,4 +1,4 @@
-title: Ohjelmointi perusopetuksessa
+title: Opettajien koodikoulu
 
 author:
 	name: Marko Lenkkeri
@@ -10,8 +10,8 @@ theme: select/cleaver-select-theme
 
 --
 
-## Ohjelmointi perusopetuksessa
-## Ohjelmoinnin alkeita ja perusideoita
+# Opettajien koodikoulu
+## Ohjelmoinnin ja koodikoulun perusteita
 
 --
 
@@ -27,21 +27,34 @@ http://www.geniem.com/
 
 --
 
+### Minä
+
+* Relevantit statistiikat
+
+--
+
+### Tänään
+
+Päämäärät:
+- antaa perusteet
+- antaa ideoita
+- kokeilla ohjatusti itse
+
+--
+
 ### Koodikoulu
 
-Jokainen käsin tehty operaatio
-- hidastaa kehityssykliä
-- luo virhemahdollisuuksia
-- aiheuttaa henkilöriippuvuuksia
+Ohjelmointi kaikille tutuksi
+- avoin liike, taustalla yrityksiä ja yksityishenkilöitä
+- kerhot käynnistyneet 2014
+- tavoitteena toistuvat iltapäiväkerhot
 
 --
 
 ### Mitä ohjelmointi on
 
-Perustyyppejä
-- on-demand
-- ajastettu
-- liipaistu
+Ohjelmointi on ohjeiden antamista tietokoneelle.
+Yksiselitteiset käskyt
 
 --
 
