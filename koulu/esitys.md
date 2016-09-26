@@ -16,7 +16,7 @@ theme: select/cleaver-select-theme
 
 --
 
-### Tärkeimmät ensin
+### Tärkeimmät 2 asiaa ensin
 
 - Kesto 4h
 - Kahvitauko klo 14
@@ -38,6 +38,21 @@ http://www.geniem.com/
 ### Minä
 
 * Relevantit statistiikat
+
+--
+
+### Kurssi
+
+Kaksi lähiopetuspäivää:
+- Perusteet
+- Kehittyneemmät tekniikat
+
+Käytännön harjoittelu:
+- Oppilaille
+- Kurssia käymättömälle kollegalle
+
+Raportointi- ja verkkojakso:
+- ReadIT-järjestelmä
 
 --
 
@@ -181,21 +196,90 @@ Luokat 1-2
 
 Luokat 3-6
 - lähemmäksi ohjelmointia
-- visuaalinen ympäristö
+- visuaalinen ympäristö (Scratch jne.)
 
 http://koodi2016.fi/
 
 --
 
+
 ### Tietojenkäsittelytiede
 
-Ohjelmointikielet
+Ohjelmointikieliet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin. Vuosien mittaan on myös kehitetty jatkuvasti lisää uusia kieliä tai "murteita" kielistä.
+
+Ensimmäinen ohjelmoitava laite: n. 800 eaa., automaattinen luutunsoitin.
+
+Ensimmäiset ohjelmat: n. 1800 jaa., kangaspuut ja itseään soittavat pianot.
+
+Vahva sidos matematiikkaan.
 
 --
 
 ### Tietojenkäsittelytiede
 
-Ohjelmointiparadigmat (konekieli, proseduraalinen, olio, funktionaalinen)
+Sanastoa:
+- muuttuja/parametri/attribuutti
+- metodi/proseduuri/funktio
+- luokka
+- olio
+- kääntäjä
+- tulkki
+- ajaminen
+
+--
+
+### Tietojenkäsittelytiede
+
+Ohjelmointikieliä
+- Assembly
+- Pascal
+- C
+- Java
+- Javascript
+- Ruby
+
+--
+
+### Tietojenkäsittelytiede
+
+Ohjelmointiparadigmat
+- konekieli
+- proseduraalinen ohjelmointi
+- olio-ohjelmointi
+- funktionaalinen ohjelmointi
+
+--
+
+### Tietojenkäsittelytiede
+
+Tyyppijärjestelmä:
+- tyypitetty ja tyypitön
+- staattinen ja dynaaminen
+- heikko ja vahva
+
+--
+
+### Tietojenkäsittelytiede
+
+Tyypitetty kieli:
+- operaatiot tyyppikohtaisia
+- tyypillisesti korkeamman abstraktiotason kieli
+
+Tyypitön kieli:
+- operaatiot kaikille samat
+- matalan abstraktiotason kielet (Assembly)
+
+--
+
+### Tietojenkäsittelytiede
+
+Staattinen tyypitys:
+- operaatiot tyyppikohtaisia
+- tyypillisesti korkeamman abstraktiotason kieli
+
+Dynaaminen tyypitys:
+- operaatiot kaikille samat
+- matalan abstraktiotason kielet (Assembly)
 
 --
 
