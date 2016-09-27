@@ -51,6 +51,10 @@ Käytännön harjoittelu:
 - Oppilaille
 - Kurssia käymättömälle kollegalle
 
+--
+
+### Kurssi
+
 Raportointi- ja verkkojakso:
 - ReadIT-järjestelmä
 
