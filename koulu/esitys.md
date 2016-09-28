@@ -441,6 +441,8 @@ Abstraktiotasot
 - ohjelmointikieli korkean tason
 - tason noustessa suorituskyky heikkenee yleistyksien takia
 
+--
+
 ### Tietojenkäsittelytiede
 
 Ja kaikkea muuta:
