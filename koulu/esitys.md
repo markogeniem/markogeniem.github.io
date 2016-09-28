@@ -243,6 +243,14 @@ Sanastoa:
 - metodi/proseduuri/funktio
 - luokka
 - olio
+- algoritmi
+- kirjasto
+
+--
+
+### Tietojenkäsittelytiede
+
+Sanastoa:
 - kääntäjä
 - tulkki
 - ajaminen
@@ -253,7 +261,7 @@ Sanastoa:
 
 Perusrakenteita:
 - ehtolause (if)
-- silmukat (for, while)
+- silmukat (for, while)(alku- ja loppuehto)
 - valintalauseet (switch/case)
 - poikkeus (exception)
 - sulkeuma (closure)
@@ -428,35 +436,10 @@ Tyyppijärjestelmä:
 
 ### Tietojenkäsittelytiede
 
-Tyypitetty kieli:
-- operaatiot tyyppikohtaisia
-- tyypillisesti korkeamman abstraktiotason kieli
-
-Tyypitön kieli:
-- operaatiot kaikille samat
-- matalan abstraktiotason kielet (Assembly)
-
---
-
-### Tietojenkäsittelytiede
-
-Staattinen tyypitys:
-- muuttujan tyyppi on kiinteä
-
-Dynaaminen tyypitys:
-- muuttujan tyyppi voi muuttua tai olla määrittelemätön
-
---
-
-### Tietojenkäsittelytiede
-
-Heikko tyypitys:
-- muuttujaa voi käsitellä kuin toisen tyyppistä muuttujaa
-
-Vahva tyypitys:
-- muuttujaa voi käsitellä vain tyyppinsä mukaisilla operaatioilla
-
---
+Abstraktiotasot
+- konekieli matalan tason
+- ohjelmointikieli korkean tason
+- tason noustessa suorituskyky heikkenee yleistyksien takia
 
 ### Tietojenkäsittelytiede
 
@@ -492,7 +475,7 @@ http://www.koodi2016.fi/
 
 http://www.koodikirja.fi/luku1/
 
-http://rosa.utu.fi/juniorkoodari/
+http://rosa.utu.fi/juniorkoodari/ (2. sessiota varten)
 
 --
 
