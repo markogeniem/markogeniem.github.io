@@ -264,7 +264,7 @@ Perusrakenteita:
 - silmukat (for, while)(alku- ja loppuehto)
 - valintalauseet (switch/case)
 - oliot
-- fuktiot
+- funktiot
 - poikkeus (exception)
 - sulkeuma (closure)
 
