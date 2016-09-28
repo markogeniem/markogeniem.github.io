@@ -366,6 +366,12 @@ return numerot.findIndexOf({value%2!=0 && value>1})
 
 Ohjelmointikielet saattavat erikoistua tiettyihin tarkoituksiin tai paradigmoihin, myös ikä vaikuttaa.
 
+Tärkeintä kuitenkin ohjelmoinnin logiikka! Suurin osa ohjelmointikielistä samaa tavaraa, syntaksieroilla.
+
+--
+
+### Tietojenkäsittelytiede
+
 Ohjelmointikieliä:
 - Assembly
 - Pascal
