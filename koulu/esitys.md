@@ -263,6 +263,8 @@ Perusrakenteita:
 - ehtolause (if)
 - silmukat (for, while)(alku- ja loppuehto)
 - valintalauseet (switch/case)
+- oliot
+- funktiot
 - poikkeus (exception)
 - sulkeuma (closure)
 
@@ -274,9 +276,9 @@ Ehtolause
 ```
 String teksti = "abcd";
 if(teksti.contains("ab")) {
-  System.out.println("Löytyi");
+    System.out.println("Löytyi");
 } else {
-  System.out.println("Ei löytynyt");
+    System.out.println("Ei löytynyt");
 }
 ```
 
@@ -288,9 +290,9 @@ Ehtolause
 ```
 int[] numerot = {1,2,3,4};
 if(numerot[0] == 1) {
-  System.out.println("Löytyi");
+    System.out.println("Löytyi");
 } else {
-  System.out.println("Ei löytynyt");
+    System.out.println("Ei löytynyt");
 }
 ```
 
@@ -302,7 +304,7 @@ Silmukka
 ```
 int[] numerot = {1,2,3,4};
 for(int i : numerot) {
-  System.out.println(i);
+    System.out.println(i);
 }
 ```
 
@@ -315,8 +317,8 @@ Silmukka
 int[] numerot = {1,2,3,4};
 int i = 0;
 while (i<numerot.length) {
-  System.out.println(i);
-  i++;
+    System.out.println(i);
+    i++;
 }
 ```
 
@@ -328,11 +330,40 @@ Valintalause
 ```
 int i = 3;
 switch (i) {
-  case 1: System.out.println("Ykkönen"); break;
-  case 2: System.out.println("Kakkonen"); break;
-  case 3: System.out.println("Kolmonen"); break;
-  default : System.out.println("Iso luku"); break;
+    case 1: System.out.println("Ykkönen"); break;
+    case 2: System.out.println("Kakkonen"); break;
+    case 3: System.out.println("Kolmonen"); break;
+    default: System.out.println("Iso luku"); break;
 }
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Oliot
+```
+Car car1 = new Car(Color.RED, Brand.FERRARI, 200);
+Car car2 = new Car(Color.BLUE, Brand.AUDI, 150);
+
+car1.isFasterThan(car2); // palauttaa true
+car2.isFasterThan(car1); // false
+
+```
+
+--
+
+### Tietojenkäsittelytiede
+
+Funktiot
+```
+let sum = function(x, y){
+	return x + y;
+};
+sum(1, 1);               // palauttaa 2
+sum(4, 2);               // 6
+sum(sum(10, 10), 10);    // 30
+
 ```
 
 --
@@ -344,9 +375,9 @@ Poikkeus
 int[] numerot = {1,2,3,4};
 int i = 0;
 if(numerot[i] < 3) {
-  throw new Exception("Listan ensimmäinen numero on liian pieni!");
+    throw new Exception("Listan ensimmäinen numero on liian pieni!");
 } else {
-return numerot[i];
+    return numerot[i];
 }
 ```
 
@@ -488,6 +519,8 @@ http://rosa.utu.fi/juniorkoodari/ (2. sessiota varten)
 --
 
 ### Kysymyksiä tästä materiaalista?
+
+kalle@geniem.com
 
 artturi@geniem.com
 
