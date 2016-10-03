@@ -49,7 +49,7 @@ Käytännön harjoittelu:
 
 ### Kurssi
 
-Raportointi- ja verkkojakso:
+Oma koodikoulun ohjauskokeilu ja sen raportointi = verkkotyöskentelyjakso:
 - ReadIT-järjestelmä
 
 --
@@ -59,7 +59,8 @@ Raportointi- ja verkkojakso:
 Päämäärät:
 - jatketaan Turtle Royn kanssa
 - kerrataan
-- 
+- käydään läpi koodikoulun järjestäminen
+- kirjaudutaan ReadIT-järjestelmään
 
 --
 
@@ -79,20 +80,12 @@ Piirtäminen
 - ```home```
 
 --
-
 ### Turtle Roy
 
 Piirtäminen
+
 - ```penup```
 - ```pendown```
-
---
-
-### Turtle Roy
-
-Sekvenssit
-- peräkkäin suoritettavia käskyjä
-- ```s [fd 50, rt 90, fd 50]```
 
 --
 
@@ -105,20 +98,31 @@ Näppäimistötaikoja
 - macilla aaltosulut ```shift```, ```alt``` ja 8 tai 9.
 
 --
+### juniorKoodari
 
-### Turtle Roy
+Materiaali 9 - 12 -vuotiaille alakoululaisille
 
-Sekvenssit
-- peräkkäin suoritettavia käskyjä
-- ```s [fd 50, rt 90, fd 50]```
+http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
+
+Hyödyntää Turtle Royta, kuten Koodikirja
 
 --
 
 ### Turtle Roy
 
-Toistot
-- käsky mitä toistetaan määrätty määrä
-- ```r 4 (fd 50)```
+Peruskomennot
+- ```piirtäminen```
+- ```värit ja teksti```
+- ```tallentaminen ja lataaminen```
+- ```äänet```
+
+--
+
+### Turtle Roy
+
+Sekvenssit
+- peräkkäin suoritettavia käskyjä
+- ```s [clear, fd 90, rt 90, fd 90, rt 90, fd 90, rt 90, fd 90, rt 90] ```
 
 --
 
@@ -127,6 +131,8 @@ Toistot
 Funktiot
 - nimetty käsky, jolla toteutetaan monimutkaisempia kokonaisuuksia
 - ```let nelio = r 4 (s [fd 50, rt 90])```
+- käskyä kutsutaan sen nimellä, jolloin se toteutetaan
+- ```nelio```
 
 Vaihtoehtoisesti myös
 - ```let kulma = s [fd 50, rt 90]```
@@ -134,21 +140,107 @@ Vaihtoehtoisesti myös
 
 --
 
+### Turtle Roy
+
+Toistot
+- käsky, jota toistetaan määrätty määrä
+- ```r 4 (fd 50)```
+
+
+--
+
 ### Miten ohjelmointia opetetaan?
 
-Miten ohjelmoinnin opetusta voi lähestyä peruskoulussa? Inspiroivia esimerkkejä ohjelmoinnin opettamisesta ja soveltamisesta opetuksessa sekä yhteistyömahdollisuuksista eri aineiden opettajien kanssa. 
+Lähde ja hyvää lukemistoa: http://koodi2016.fi/opetus.html
+
+Koodauksen opetus on ajattelun opettamista! (ohjelmoinnillinen ajattelu)
+- ongelman purkaminen osiin (lego-harjoituksesta tuttua)
+- kaavojen ja toistuvien sääntöjen tunnistaminen (syy-seuraussuhteet)
+- algoritmien luominen (= kuvaus jonkin tehtävän suorittamiseksi tarvittavista toimenpiteistä)
+- ratkaisun yleistäminen ja automatisointi
+
+--
+
+### Miten ohjelmointia opetetaan? nro 2
+
+Ohjelmointia oppii tekemällä!
+- 1-2 luokilla leikkien avulla (oppilaat ohjelmoi opettajaa/toisiaan...)
+- 3-6 luokilla visuaaliset ohjelmointiympäristöt/piirtäminen Turtle Roylla/
+koodauspelit/applikaatiot
+- 7-9 luokilla ohjelmointikielet
 
 --
 
 ### Koodikoulun rakenne ja järjestäminen
 
-Miten järjestää koodikoulutunti oman oppilasryhmän kanssa? Koodikoulutunnin rakenne. Koodikoulun järjestämistä varten tarkastuslista ja tapa toimia. 
+Miten järjestää koodikoulutunti oman oppilasryhmän kanssa? 
+http://koodikoulu.github.io/koodikoulu/
+
+- etukäteisvalmistelu
+- alkusanat
+- intro
+- lämmittelyleikki
+- Turtle Roy: perusasiat + koodaus
+- tunnin päätös (+ halutessa todistukset)
 
 --
 
 ### Haasteet
 
-Käydään yhdessä läpi ohjelmoinnin opettamisen haasteita ja hidasteita sekä sitä, miten vaikeudet voitetaan. Mistä löytyy apu ja tuki opettajalle?
+Mitä ongelmia ohjelmoinnin opettamisessa voi tulla eteen?
+Miten haasteet ratkaistaan?
+Mistä löytyy tuki opettajalle?
+
+--
+
+### juniorKoodari
+
+Tehtävät
+http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
+
+--
+
+### Verkkotyöskentelyjakso
+
+Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen.
+ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.
+
+Tutorina toimii:
+
+Heikki Hutri
+hohutr@utu.fi
+
+-- 
+
+### Verkkotyöskentelyjakso
+
+http://rosa.utu.fi/koodikoulut/
+
+- luo tunnus
+- kirjaudu sisään
+- anna kurssisi kurssiavain "Turku_I" tai "Tampere_I" (ilman lainausmerkkejä)
+- muut hankkeen koulutukset saat näkyviin "TTtiedonhaku" ja "TTtietoturva" -avaimilla
+(voit tutustua näihin ja suorittaa nekin halutessasi, niistä saat 2 op tietotaidot -kurssitodistuksen, tarkemmat infot kurssista: http://rosa.utu.fi/kick/tietotaidot/)
+
+--
+
+### Kysymyksiä tästä materiaalista?
+
+kalle@geniem.com
+
+artturi@geniem.com
+
+marko@geniem.com
+
+-- 
+
+### Loppu
+
+Kysymyksiä?
+
+Kommentteja?
+
+Haasteita tai ideoita?
 
 --
 
@@ -162,42 +254,4 @@ http://www.koodikirja.fi/luku1/
 
 http://rosa.utu.fi/juniorkoodari/
 
---
-
-### Kysymyksiä tästä materiaalista?
-
-kalle@geniem.com
-
-artturi@geniem.com
-
-marko@geniem.com
-
---
-
-### Verkkotyöskentelyjakso
-
-Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen,
-ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.
-
-Tutorina toimii:
-
-Heikki Hutri
-
-hohutr@utu.fi
-
--- 
-
-### Verkkotyöskentelyjakso
-
-ReadIT osoite, opastusjutut
-
--- 
-
-### Loppu
-
-Kysymyksiä?
-
-Kommentteja?
-
-Haasteita tai ideoita?
 
