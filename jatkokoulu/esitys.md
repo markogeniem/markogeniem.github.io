@@ -98,6 +98,7 @@ Sekvenssit
 
 ### Turtle Roy
 
+Näppäimistötaikoja
 - hakasulult ```alt gr``` -näppäimellä ja 8- tai 9-näppäimillä.
 - macilla hakasulut oikeanpuoleinen ```alt``` ja 8 tai 9
 - aaltosulut ```alt gr``` -näppäimellä ja 7- tai 0-näppäimillä
