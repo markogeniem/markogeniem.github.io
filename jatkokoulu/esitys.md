@@ -257,7 +257,7 @@ Mistä löytyy tuki opettajalle? (opetus, softa, rauta)
 Ylimääräistä kivaa:
 - [Tehtävä- ja diplomimateriaaleja koodikerhosta](https://drive.google.com/drive/u/0/folders/0B1C8IjvRApfgeXIzZUx5UXBSMlk)
 - [Koodikoulun diplomit](http://koodikoulu.github.io/koodikoulu/)
-- 
+- muuta?
 
 --
 
