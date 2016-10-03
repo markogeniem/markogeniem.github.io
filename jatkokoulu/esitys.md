@@ -72,6 +72,16 @@ Kerrataan perusteet: http://www.koodikirja.fi/luku1/
 
 ### Turtle Roy
 
+Peruskomennot
+- ```piirtäminen```
+- ```värit ja teksti```
+- ```tallentaminen ja lataaminen```
+- ```äänet```
+
+--
+
+### Turtle Roy
+
 Piirtäminen
 - ```fd 50```
 - ```rt 90```
@@ -80,12 +90,42 @@ Piirtäminen
 - ```home```
 
 --
+
 ### Turtle Roy
 
 Piirtäminen
-
 - ```penup```
 - ```pendown```
+
+--
+
+### Turtle Roy
+
+Värit ja teksti
+- ```color "red"```
+- ```bg "green"```
+- ```text "Moikka maailma!"```
+- ```font 10```
+
+--
+
+### Turtle Roy
+
+Tallentaminen ja lataaminen
+- ```login "nimi"```
+- ```save "nimi"```
+- ```open "nimi"```
+- ```ls```
+
+--
+
+### Turtle Roy
+
+Äänet
+- ```say "Hello world"```
+- ```play c 500```
+- Mieti tarkkaan
+- Muista testata toimiiko selaimella
 
 --
 
@@ -96,25 +136,6 @@ Näppäimistötaikoja
 - macilla hakasulut oikeanpuoleinen ```alt``` ja 8 tai 9
 - aaltosulut ```alt gr``` -näppäimellä ja 7- tai 0-näppäimillä
 - macilla aaltosulut ```shift```, ```alt``` ja 8 tai 9.
-
---
-### juniorKoodari
-
-Materiaali 9 - 12 -vuotiaille alakoululaisille
-
-http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
-
-Hyödyntää Turtle Royta, kuten Koodikirja
-
---
-
-### Turtle Roy
-
-Peruskomennot
-- ```piirtäminen```
-- ```värit ja teksti```
-- ```tallentaminen ja lataaminen```
-- ```äänet```
 
 --
 
@@ -152,6 +173,10 @@ Toistot
 ### Miten ohjelmointia opetetaan?
 
 Lähde ja hyvää lukemistoa: http://koodi2016.fi/opetus.html
+
+--
+
+### Miten ohjelmointia opetetaan?
 
 Koodauksen opetus on ajattelun opettamista! (ohjelmoinnillinen ajattelu)
 - ongelman purkaminen osiin (lego-harjoituksesta tuttua)
@@ -195,8 +220,11 @@ Mistä löytyy tuki opettajalle?
 
 ### juniorKoodari
 
-Tehtävät
+Materiaali 9 - 12 -vuotiaille alakoululaisille
+
 http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
+
+Hyödyntää Turtle Royta, kuten Koodikirja
 
 --
 
