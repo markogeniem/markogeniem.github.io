@@ -248,7 +248,17 @@ Tarkastuslista
 
 Mitä ongelmia ohjelmoinnin opettamisessa voi tulla eteen?
 Miten haasteet ratkaistaan?
-Mistä löytyy tuki opettajalle? (opetus, softa, rauta)
+Mistä löytyy tuki opettajalle?
+
+--
+
+### Haasteet
+
+Mistä löytyy tuki opettajalle?
+- opettaminen - vertaiset?
+- softa ja rauta - koulun tuki
+- ohjelmointi - google ja koodarit
+- verkkoyhteisöt - FB + stackoverflow + muut?
 
 --
 
