@@ -60,7 +60,7 @@ Päämäärät:
 - jatketaan Turtle Royn kanssa
 - kerrataan
 - pohditaan ohjelmoinnin opettamista
- - käydään läpi koodikoulun järjestäminen
+- käydään läpi koodikoulun järjestäminen
 - kirjaudutaan ReadIT-järjestelmään
 
 --
@@ -174,6 +174,8 @@ Vaihtoehtoisesti myös
 ### Turtle Roy
 
 https://github.com/raimohanska/turtle-roy laajempaa käskylistausta ja alkuperäinen lähdekoodi.
+
+http://turtle-js.herokuapp.com/ Javascript-versio, kts. https://github.com/raimohanska/turtle-js
 
 --
 
