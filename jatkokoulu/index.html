@@ -605,7 +605,6 @@ kbd {
 }
 
   </style>
-    <script async src="http://localhost:35729/livereload.js"></script>
 </head>
 <body>
     <div class="progress">
@@ -669,7 +668,7 @@ kbd {
       <div class="slide hidden" id="slide-5">
         <div data-id="5" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="kurssi">Kurssi</h3>
-<p>Raportointi- ja verkkojakso:</p>
+<p>Oma koodikoulun ohjauskokeilu ja sen raportointi = verkkotyöskentelyjakso:</p>
 <ul>
 <li>ReadIT-järjestelmä</li>
 </ul>
@@ -683,8 +682,9 @@ kbd {
 <p>Päämäärät:</p>
 <ul>
 <li>jatketaan Turtle Royn kanssa</li>
-<li>kerrataan
--</li>
+<li>kerrataan</li>
+<li>käydään läpi koodikoulun järjestäminen</li>
+<li>kirjaudutaan ReadIT-järjestelmään</li>
 </ul>
 </section>
       </div>
@@ -728,18 +728,6 @@ kbd {
       <div class="slide hidden" id="slide-10">
         <div data-id="10" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="turtle-roy">Turtle Roy</h3>
-<p>Sekvenssit</p>
-<ul>
-<li>peräkkäin suoritettavia käskyjä</li>
-<li><code>s [fd 50, rt 90, fd 50]</code></li>
-</ul>
-</section>
-      </div>
-    </div>
-    <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-11">
-        <div data-id="11" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="turtle-roy">Turtle Roy</h3>
 <p>Näppäimistötaikoja</p>
 <ul>
 <li>hakasulult <code>alt gr</code> -näppäimellä ja 8- tai 9-näppäimillä.</li>
@@ -751,13 +739,25 @@ kbd {
       </div>
     </div>
     <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-11">
+        <div data-id="11" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="juniorkoodari">juniorKoodari</h3>
+<p>Materiaali 9 - 12 -vuotiaille alakoululaisille</p>
+<p><a href="http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/">http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/</a></p>
+<p>Hyödyntää Turtle Royta, kuten Koodikirja</p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
       <div class="slide hidden" id="slide-12">
         <div data-id="12" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="turtle-roy">Turtle Roy</h3>
-<p>Sekvenssit</p>
+<p>Peruskomennot</p>
 <ul>
-<li>peräkkäin suoritettavia käskyjä</li>
-<li><code>s [fd 50, rt 90, fd 50]</code></li>
+<li><code>piirtäminen</code></li>
+<li><code>värit ja teksti</code></li>
+<li><code>tallentaminen ja lataaminen</code></li>
+<li><code>äänet</code></li>
 </ul>
 </section>
       </div>
@@ -766,10 +766,10 @@ kbd {
       <div class="slide hidden" id="slide-13">
         <div data-id="13" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="turtle-roy">Turtle Roy</h3>
-<p>Toistot</p>
+<p>Sekvenssit</p>
 <ul>
-<li>käsky mitä toistetaan määrätty määrä</li>
-<li><code>r 4 (fd 50)</code></li>
+<li>peräkkäin suoritettavia käskyjä</li>
+<li><code>s [clear, fd 90, rt 90, fd 90, rt 90, fd 90, rt 90, fd 90, rt 90]</code></li>
 </ul>
 </section>
       </div>
@@ -782,6 +782,8 @@ kbd {
 <ul>
 <li>nimetty käsky, jolla toteutetaan monimutkaisempia kokonaisuuksia</li>
 <li><code>let nelio = r 4 (s [fd 50, rt 90])</code></li>
+<li>käskyä kutsutaan sen nimellä, jolloin se toteutetaan</li>
+<li><code>nelio</code></li>
 </ul>
 <p>Vaihtoehtoisesti myös</p>
 <ul>
@@ -794,41 +796,110 @@ kbd {
     <div class="slide-wrapper">
       <div class="slide hidden" id="slide-15">
         <div data-id="15" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="miten-ohjelmointia-opetetaan-">Miten ohjelmointia opetetaan?</h3>
-<p>Miten ohjelmoinnin opetusta voi lähestyä peruskoulussa? Inspiroivia esimerkkejä ohjelmoinnin opettamisesta ja soveltamisesta opetuksessa sekä yhteistyömahdollisuuksista eri aineiden opettajien kanssa.</p>
+        <section class="slide-content"><h3 id="turtle-roy">Turtle Roy</h3>
+<p>Toistot</p>
+<ul>
+<li>käsky, jota toistetaan määrätty määrä</li>
+<li><code>r 4 (fd 50)</code></li>
+</ul>
 </section>
       </div>
     </div>
     <div class="slide-wrapper">
       <div class="slide hidden" id="slide-16">
         <div data-id="16" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="koodikoulun-rakenne-ja-j-rjest-minen">Koodikoulun rakenne ja järjestäminen</h3>
-<p>Miten järjestää koodikoulutunti oman oppilasryhmän kanssa? Koodikoulutunnin rakenne. Koodikoulun järjestämistä varten tarkastuslista ja tapa toimia.</p>
+        <section class="slide-content"><h3 id="miten-ohjelmointia-opetetaan-">Miten ohjelmointia opetetaan?</h3>
+<p>Lähde ja hyvää lukemistoa: <a href="http://koodi2016.fi/opetus.html">http://koodi2016.fi/opetus.html</a></p>
+<p>Koodauksen opetus on ajattelun opettamista! (ohjelmoinnillinen ajattelu)</p>
+<ul>
+<li>ongelman purkaminen osiin (lego-harjoituksesta tuttua)</li>
+<li>kaavojen ja toistuvien sääntöjen tunnistaminen (syy-seuraussuhteet)</li>
+<li>algoritmien luominen (= kuvaus jonkin tehtävän suorittamiseksi tarvittavista toimenpiteistä)</li>
+<li>ratkaisun yleistäminen ja automatisointi</li>
+</ul>
 </section>
       </div>
     </div>
     <div class="slide-wrapper">
       <div class="slide hidden" id="slide-17">
         <div data-id="17" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="haasteet">Haasteet</h3>
-<p>Käydään yhdessä läpi ohjelmoinnin opettamisen haasteita ja hidasteita sekä sitä, miten vaikeudet voitetaan. Mistä löytyy apu ja tuki opettajalle?</p>
+        <section class="slide-content"><h3 id="miten-ohjelmointia-opetetaan-nro-2">Miten ohjelmointia opetetaan? nro 2</h3>
+<p>Ohjelmointia oppii tekemällä!</p>
+<ul>
+<li>1-2 luokilla leikkien avulla (oppilaat ohjelmoi opettajaa/toisiaan...)</li>
+<li>3-6 luokilla visuaaliset ohjelmointiympäristöt/piirtäminen Turtle Roylla/
+koodauspelit/applikaatiot</li>
+<li>7-9 luokilla ohjelmointikielet</li>
+</ul>
 </section>
       </div>
     </div>
     <div class="slide-wrapper">
       <div class="slide hidden" id="slide-18">
         <div data-id="18" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="linkkej-">Linkkejä</h3>
-<p><a href="http://www.koodikoulu.fi/">http://www.koodikoulu.fi/</a></p>
-<p><a href="http://www.koodi2016.fi/">http://www.koodi2016.fi/</a></p>
-<p><a href="http://www.koodikirja.fi/luku1/">http://www.koodikirja.fi/luku1/</a></p>
-<p><a href="http://rosa.utu.fi/juniorkoodari/">http://rosa.utu.fi/juniorkoodari/</a></p>
+        <section class="slide-content"><h3 id="koodikoulun-rakenne-ja-j-rjest-minen">Koodikoulun rakenne ja järjestäminen</h3>
+<p>Miten järjestää koodikoulutunti oman oppilasryhmän kanssa? 
+<a href="http://koodikoulu.github.io/koodikoulu/">http://koodikoulu.github.io/koodikoulu/</a></p>
+<ul>
+<li>etukäteisvalmistelu</li>
+<li>alkusanat</li>
+<li>intro</li>
+<li>lämmittelyleikki</li>
+<li>Turtle Roy: perusasiat + koodaus</li>
+<li>tunnin päätös (+ halutessa todistukset)</li>
+</ul>
 </section>
       </div>
     </div>
     <div class="slide-wrapper">
       <div class="slide hidden" id="slide-19">
         <div data-id="19" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="haasteet">Haasteet</h3>
+<p>Mitä ongelmia ohjelmoinnin opettamisessa voi tulla eteen?
+Miten haasteet ratkaistaan?
+Mistä löytyy tuki opettajalle?</p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-20">
+        <div data-id="20" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="juniorkoodari">juniorKoodari</h3>
+<p>Tehtävät
+<a href="http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/">http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/</a></p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-21">
+        <div data-id="21" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="verkkoty-skentelyjakso">Verkkotyöskentelyjakso</h3>
+<p>Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen.
+ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.</p>
+<p>Tutorina toimii:</p>
+<p>Heikki Hutri
+hohutr@utu.fi</p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden  " id="slide-22">
+        <div data-id="22" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="verkkoty-skentelyjakso">Verkkotyöskentelyjakso</h3>
+<p><a href="http://rosa.utu.fi/koodikoulut/">http://rosa.utu.fi/koodikoulut/</a></p>
+<ul>
+<li>luo tunnus</li>
+<li>kirjaudu sisään</li>
+<li>anna kurssisi kurssiavain &quot;Turku_I&quot; tai &quot;Tampere_I&quot; (ilman lainausmerkkejä)</li>
+<li>muut hankkeen koulutukset saat näkyviin &quot;TTtiedonhaku&quot; ja &quot;TTtietoturva&quot; -avaimilla
+(voit tutustua näihin ja suorittaa nekin halutessasi, niistä saat 2 op tietotaidot -kurssitodistuksen, tarkemmat infot kurssista: <a href="http://rosa.utu.fi/kick/tietotaidot/">http://rosa.utu.fi/kick/tietotaidot/</a>)</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-23">
+        <div data-id="23" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="kysymyksi-t-st-materiaalista-">Kysymyksiä tästä materiaalista?</h3>
 <p>kalle@geniem.com</p>
 <p>artturi@geniem.com</p>
@@ -837,32 +908,23 @@ kbd {
       </div>
     </div>
     <div class="slide-wrapper">
-      <div class="slide hidden" id="slide-20">
-        <div data-id="20" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="verkkoty-skentelyjakso">Verkkotyöskentelyjakso</h3>
-<p>Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen,
-ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.</p>
-<p>Tutorina toimii:</p>
-<p>Heikki Hutri</p>
-<p>hohutr@utu.fi</p>
-</section>
-      </div>
-    </div>
-    <div class="slide-wrapper">
-      <div class="slide hidden  " id="slide-21">
-        <div data-id="21" class="slide-overlay"></div>
-        <section class="slide-content"><h3 id="verkkoty-skentelyjakso">Verkkotyöskentelyjakso</h3>
-<p>ReadIT osoite, opastusjutut</p>
-</section>
-      </div>
-    </div>
-    <div class="slide-wrapper">
-      <div class="slide hidden  " id="slide-22">
-        <div data-id="22" class="slide-overlay"></div>
+      <div class="slide hidden  " id="slide-24">
+        <div data-id="24" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="loppu">Loppu</h3>
 <p>Kysymyksiä?</p>
 <p>Kommentteja?</p>
 <p>Haasteita tai ideoita?</p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-25">
+        <div data-id="25" class="slide-overlay"></div>
+        <section class="slide-content"><h3 id="linkkej-">Linkkejä</h3>
+<p><a href="http://www.koodikoulu.fi/">http://www.koodikoulu.fi/</a></p>
+<p><a href="http://www.koodi2016.fi/">http://www.koodi2016.fi/</a></p>
+<p><a href="http://www.koodikirja.fi/luku1/">http://www.koodikirja.fi/luku1/</a></p>
+<p><a href="http://rosa.utu.fi/juniorkoodari/">http://rosa.utu.fi/juniorkoodari/</a></p>
 </section>
       </div>
     </div>
