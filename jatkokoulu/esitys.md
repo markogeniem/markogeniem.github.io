@@ -203,7 +203,7 @@ http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
 ### Verkkotyöskentelyjakso
 
 Verkkotyöskentelyjakso alkaa toisen lähiopetusiltapäivän jälkeen.
-ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.
+Ympäristönä ReadIT. Ideana pitää yksi tai useampi oppitunti oppilaille koodikoulun mukaisesti, ja dokumentoida se.
 
 Tutorina toimii:
 
