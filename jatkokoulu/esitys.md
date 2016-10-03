@@ -252,6 +252,15 @@ Mistä löytyy tuki opettajalle? (opetus, softa, rauta)
 
 --
 
+### Lasten huomiointi
+
+Ylimääräistä kivaa:
+- [Tehtävä- ja diplomimateriaaleja koodikerhosta](https://drive.google.com/drive/u/0/folders/0B1C8IjvRApfgeXIzZUx5UXBSMlk)
+- [Koodikoulun diplomit](http://koodikoulu.github.io/koodikoulu/)
+- 
+
+--
+
 ### juniorKoodari
 
 Materiaali 9 - 12 -vuotiaille alakoululaisille
@@ -324,14 +333,6 @@ Pääpointit tehtävissä
 - ymmärrä toistuvien osien hahmottaminen
 - ymmärrä toistot, sekvenssit ja funktiot
 - poista manuaalinen toisto
-
---
-
-### Opetusresursseja
-
-Koottu koodikerhon materiaaleja erilaisten tuntien pitämiseksi
-
-https://drive.google.com/drive/u/0/folders/0B1C8IjvRApfgeXIzZUx5UXBSMlk
 
 --
 
