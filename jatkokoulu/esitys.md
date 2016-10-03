@@ -59,7 +59,7 @@ Raportointi- ja verkkojakso:
 Päämäärät:
 - jatketaan Turtle Royn kanssa
 - kerrataan
-- tietokoneetta
+- 
 
 --
 
@@ -72,30 +72,19 @@ Kerrataan perusteet: http://www.koodikirja.fi/luku1/
 ### Turtle Roy
 
 Piirtäminen
-- fd 50
-- rt 90
-- lt 45
-- clear
-- home
+- ```fd 50```
+- ```rt 90```
+- ```lt 45```
+- ```clear```
+- ```home```
 
 --
 
 ### Turtle Roy
 
 Piirtäminen
-- fd 50
-- rt 90
-- lt 45
-- clear
-- home
-
---
-
-### Turtle Roy
-
-Piirtäminen
-- penup
-- pendown
+- ```penup```
+- ```pendown```
 
 --
 
@@ -109,10 +98,10 @@ Sekvenssit
 
 ### Turtle Roy
 
-- hakasulult alt gr -näppäimellä ja 8- tai 9-näppäimillä.
-- macilla hakasulut oikeanpuoleinen alt ja 8 tai 9
-- aaltosulut alt gr -näppäimellä ja 7- tai 0-näppäimillä
-- macilla aaltosulut shift, alt ja 8 tai 9.
+- hakasulult ```alt gr``` -näppäimellä ja 8- tai 9-näppäimillä.
+- macilla hakasulut oikeanpuoleinen ```alt``` ja 8 tai 9
+- aaltosulut ```alt gr``` -näppäimellä ja 7- tai 0-näppäimillä
+- macilla aaltosulut ```shift```, ```alt``` ja 8 tai 9.
 
 --
 
