@@ -59,7 +59,8 @@ Oma koodikoulun ohjauskokeilu ja sen raportointi = verkkotyöskentelyjakso:
 Päämäärät:
 - jatketaan Turtle Royn kanssa
 - kerrataan
-- käydään läpi koodikoulun järjestäminen
+- pohditaan ohjelmoinnin opettamista
+ - käydään läpi koodikoulun järjestäminen
 - kirjaudutaan ReadIT-järjestelmään
 
 --
@@ -192,13 +193,27 @@ Koodauksen opetus on ajattelun opettamista! (ohjelmoinnillinen ajattelu)
 
 --
 
-### Miten ohjelmointia opetetaan? nro 2
+### Miten ohjelmointia opetetaan?
 
 Ohjelmointia oppii tekemällä!
 - 1-2 luokilla leikkien avulla (oppilaat ohjelmoi opettajaa/toisiaan...)
 - 3-6 luokilla visuaaliset ohjelmointiympäristöt/piirtäminen Turtle Roylla/
 koodauspelit/applikaatiot
 - 7-9 luokilla ohjelmointikielet
+
+--
+
+### Miten ohjelmointia opetetaan?
+
+![Taidot esimerkin kautta](img/taidot-esimerkki.png)
+
+--
+
+### Miten ohjelmointia opetetaan?
+
+![Algoritminen ajattelu](img/algoritminen-ajattelu.png)
+
+<small>*https://github.com/raimohanska/opettajien-koodikoulu/</small>
 
 --
 
@@ -290,7 +305,7 @@ Hyödyntää Turtle Royta, kuten Koodikirja.
 [Tehtävä #5](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t5)
 - valmis pohja, visuaalisesti erottuva
 - sekvenssit, toistot, funktiot
-- enemmän tekemistä, tosi vaikea ilman funktioita
+- enemmän tekemistä
 
 --
 
@@ -309,6 +324,14 @@ Pääpointit tehtävissä
 - ymmärrä toistuvien osien hahmottaminen
 - ymmärrä toistot, sekvenssit ja funktiot
 - poista manuaalinen toisto
+
+--
+
+### Opetusresursseja
+
+Koottu koodikerhon materiaaleja erilaisten tuntien pitämiseksi
+
+https://drive.google.com/drive/u/0/folders/0B1C8IjvRApfgeXIzZUx5UXBSMlk
 
 --
 
