@@ -73,10 +73,10 @@ Kerrataan perusteet: http://www.koodikirja.fi/luku1/
 ### Turtle Roy
 
 Peruskomennot
-- ```piirtäminen```
-- ```värit ja teksti```
-- ```tallentaminen ja lataaminen```
-- ```äänet```
+- piirtäminen
+- värit ja teksti
+- tallentaminen ja lataaminen
+- äänet
 
 --
 
@@ -149,10 +149,18 @@ Sekvenssit
 
 ### Turtle Roy
 
+Toistot
+- käsky, jota toistetaan määrätty määrä
+- ```r 4 (fd 50)```
+
+
+--
+
+### Turtle Roy
+
 Funktiot
 - nimetty käsky, jolla toteutetaan monimutkaisempia kokonaisuuksia
 - ```let nelio = r 4 (s [fd 50, rt 90])```
-- käskyä kutsutaan sen nimellä, jolloin se toteutetaan
 - ```nelio```
 
 Vaihtoehtoisesti myös
@@ -163,10 +171,7 @@ Vaihtoehtoisesti myös
 
 ### Turtle Roy
 
-Toistot
-- käsky, jota toistetaan määrätty määrä
-- ```r 4 (fd 50)```
-
+https://github.com/raimohanska/turtle-roy laajempaa käskylistausta ja alkuperäinen lähdekoodi.
 
 --
 
@@ -224,7 +229,73 @@ Materiaali 9 - 12 -vuotiaille alakoululaisille
 
 http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
 
-Hyödyntää Turtle Royta, kuten Koodikirja
+Hyödyntää Turtle Royta, kuten Koodikirja.
+
+--
+
+### juniorKoodari
+
+Materiaali 9 - 12 -vuotiaille alakoululaisille
+
+http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
+
+Hyödyntää Turtle Royta, kuten Koodikirja.
+
+--
+
+### juniorKoodari
+
+[Tehtävä #1](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t1)
+- valmis pohja
+- kuljeta Roy alusta loppuun
+- sekvenssit, toistot
+- huomaa kommentit
+
+--
+
+### juniorKoodari
+
+[Tehtävä #2](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t2)
+- piirrä annettu kuvio
+- sekvenssit, toistot, funktiot
+- hyvä ratkaisu piilotettuna
+- oppilaille ratkaisua ei kannata suorilta näyttää
+
+--
+
+### juniorKoodari
+
+[Tehtävä #3](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t3)
+- piirrä annettu kuvio
+- sekvenssit, toistot, funktiot, ehtolauseet
+- uuden opettelua
+
+--
+
+### juniorKoodari
+
+[Tehtävä #4](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t4)
+- piirrä annettu kuvio
+- sekvenssit, toistot, funktiot
+- enemmän tekemistä, tosi vaikea ilman funktioita
+
+--
+
+### juniorKoodari
+
+[Tehtävä #5](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t5)
+- valmis pohja, visuaalisesti erottuva
+- sekvenssit, toistot, funktiot
+- enemmän tekemistä, tosi vaikea ilman funktioita
+
+--
+
+### juniorKoodari
+
+[Tehtävä #6](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t6)
+- piirrä annettu kuvio
+- sekvenssit, toistot, funktiot, ehtolauseet
+- enemmän tekemistä, erittäin vaikea ilman funktioita
 
 --
 
