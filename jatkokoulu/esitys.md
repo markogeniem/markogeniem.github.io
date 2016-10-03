@@ -159,14 +159,14 @@ Toistot
 
 ### Turtle Roy
 
-Funktiot
-- nimetty käsky, jolla toteutetaan monimutkaisempia kokonaisuuksia
+Funktiot (nimettyjä käskyjä)
 - ```let nelio = r 4 (s [fd 50, rt 90])```
 - ```nelio```
 
 Vaihtoehtoisesti myös
 - ```let kulma = s [fd 50, rt 90]```
 - ```let nelio = r 4 kulma```
+- ```nelio```
 
 --
 
@@ -288,9 +288,9 @@ Hyödyntää Turtle Royta, kuten Koodikirja.
 ### juniorKoodari
 
 [Tehtävä #5](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t5)
-- valmis pohja, visuaalisesti erottuva
-- sekvenssit, toistot, funktiot
-- enemmän tekemistä, tosi vaikea ilman funktioita
+- valmis pohja, visuaalisesti erottuva ja kiva tehtävä
+- sekvenssit
+- mahdollisuus ajella autolla, kts vastauksesta ohje kursorin muuttamiseen
 
 --
 
