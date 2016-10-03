@@ -295,7 +295,16 @@ Hyödyntää Turtle Royta, kuten Koodikirja.
 [Tehtävä #6](http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/#t6)
 - piirrä annettu kuvio
 - sekvenssit, toistot, funktiot, ehtolauseet
-- enemmän tekemistä, erittäin vaikea ilman funktioita
+- erittäin vaikea ilman funktioita
+
+--
+
+### juniorKoodari
+
+Pääpointit tehtävissä
+- ymmärrä toistuvien osien hahmottaminen
+- ymmärrä toistot, sekvenssit ja funktiot
+- poista manuaalinen toisto
 
 --
 
