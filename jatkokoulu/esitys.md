@@ -67,6 +67,7 @@ Päämäärät:
 ### Turtle Roy
 
 Kerrataan perusteet: http://www.koodikirja.fi/luku1/
+Turtle Roy: http://turtle-roy.herokuapp.com
 
 --
 
@@ -232,17 +233,7 @@ Tarkastuslista
 
 Mitä ongelmia ohjelmoinnin opettamisessa voi tulla eteen?
 Miten haasteet ratkaistaan?
-Mistä löytyy tuki opettajalle?
-
---
-
-### juniorKoodari
-
-Materiaali 9 - 12 -vuotiaille alakoululaisille
-
-http://rosa.utu.fi/juniorkoodari/etusivu/materiaalit/
-
-Hyödyntää Turtle Royta, kuten Koodikirja.
+Mistä löytyy tuki opettajalle? (opetus, softa, rauta)
 
 --
 
