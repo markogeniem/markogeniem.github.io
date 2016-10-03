@@ -215,6 +215,19 @@ http://koodikoulu.github.io/koodikoulu/
 
 --
 
+### Koodikoulun rakenne ja järjestäminen
+
+Tarkastuslista 
+
+- laitteet (tabletit sopivat huonosti)
+- verkkopääsy
+- tunnukset
+- äänet
+- koko sovelluksen toiminta
+- tehtävät, ratkaisut, tyypilliset ongelmat
+
+--
+
 ### Haasteet
 
 Mitä ongelmia ohjelmoinnin opettamisessa voi tulla eteen?
