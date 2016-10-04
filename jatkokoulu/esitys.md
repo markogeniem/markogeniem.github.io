@@ -409,6 +409,8 @@ Haasteita tai ideoita?
 
 ### Linkkejä
 
+http://rosa.utu.fi/kick/opettajien-koodikoulu/
+
 http://www.koodikoulu.fi/
 
 http://www.koodi2016.fi/
