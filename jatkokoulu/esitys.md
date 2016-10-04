@@ -65,6 +65,21 @@ Päämäärät:
 
 --
 
+### Itsemotivointi
+
+Miten saat itsesi tonkimaan ohjelmointia hieman enemmän?
+
+--
+
+### Ohjelmoinnille avuksi
+
+- matematiikka
+- englanti
+- tiedonhaku
+- luovat aineet
+
+--
+
 ### Turtle Roy
 
 Kerrataan perusteet: http://www.koodikirja.fi/luku1/
