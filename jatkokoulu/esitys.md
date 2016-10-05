@@ -12,7 +12,6 @@ theme: select/cleaver-select-theme
 
 # Opettajien koodikoulu #2
 ## Ohjelmoinnin ja koodikoulun perusteita
-## oppilas1.kuparivuori Kuppis123
 ## http://markogeniem.github.io/jatkokoulu/
 
 --
@@ -409,6 +408,7 @@ Haasteita tai ideoita?
 --
 
 ### Linkkejä
+
 
 http://rosa.utu.fi/kick/opettajien-koodikoulu/
 
