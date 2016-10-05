@@ -381,8 +381,15 @@ http://rosa.utu.fi/koodikoulut/
 
 - luo tunnus
 - kirjaudu sisään
-- anna kurssisi kurssiavain "Turku_I" tai "Tampere_I" (ilman lainausmerkkejä)
-- muut hankkeen koulutukset saat näkyviin "TTtiedonhaku" ja "TTtietoturva" -avaimilla
+- anna kurssisi kurssiavain (ilman lainausmerkkejä)
+- 2016: "Turku_I" tai "Tampere_I"
+- 2017: "Turku_II" tai "Tampere_II"
+
+--
+
+### Verkkotyöskentelyjakso
+
+Hankkeeseen kuuluu muitakin koulutuksia, joita ei tälle kurssille vaadita. Saat ne näkyviin "TTtiedonhaku" ja "TTtietoturva" -avaimilla
 (voit tutustua näihin ja suorittaa nekin halutessasi, niistä saat 2 op tietotaidot -kurssitodistuksen, tarkemmat infot kurssista: http://rosa.utu.fi/kick/tietotaidot/)
 
 --
