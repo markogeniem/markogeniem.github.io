@@ -377,7 +377,7 @@ hohutr@utu.fi
 
 ### Verkkotyöskentelyjakso
 
-http://rosa.utu.fi/koodikoulut/
+https://rosa.utu.fi/koodikoulut/
 
 - luo tunnus
 - kirjaudu sisään
