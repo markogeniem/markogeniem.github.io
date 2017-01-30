@@ -44,6 +44,11 @@ Geniem Oy
 
 # Järjestelmän suunnittelu käyttäjän oikeuksien kannalta
 
+## Suostumus tietojen keräämiseen
+
+* Poisvedettävissä
+* Opt-in, ei opt-out
+
 ## Omien tietojen siirto
 
 * Koneluettavassa muodossa oleva data
@@ -63,6 +68,11 @@ Geniem Oy
 
 * Alaikäisiltä kerättävä data (13v-16v)
 * Vanhempien suostumus
+
+## Automaatio
+
+* Profilointi
+* Päätelmät
 
 # Pilvipalveluiden ja SaaS-palveluiden rooli
 
@@ -128,4 +138,6 @@ Geniem Oy
 marko.lenkkeri@geniem.com
 
 @markogeniem
+
+http://geniem.fi/
 
