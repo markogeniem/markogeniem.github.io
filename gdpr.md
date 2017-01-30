@@ -47,27 +47,56 @@ Geniem Oy
 ## Omien tietojen siirto
 
 * Koneluettavassa muodossa oleva data
+* Saatavissa käyttäjän pyynnöstä
 
 ## Omien tietojen poisto
 
-* Poisto kaikkialta
+* Poistettava pyydettäessä
+* Automatisointi
 
 ## Omien tietojen päivittäminen ja ajantasaisuus
 
 * Ei vanhaa/viallista henkilötietoa
 * Henkilötiedot päivitettävissä 
 
+## Rajoitukset ja suostumukset
+
+* Alaikäisiltä kerättävä data (13v-16v)
+* Vanhempien suostumus
+
 # Pilvipalveluiden ja SaaS-palveluiden rooli
 
 ## Sijainti
+
+* EU:n ulkopuolinen data
+* Hajautettu data
+
 ## Varmuuskopiointikäytännöt
+
+* Mitä säilytetään oikeasti, ja miten
+* Turvalliset poistot
+
 ## Tiedonsiirto
+
+* Mitä kautta ja minne?
+
 ## Jäämät
+
+* Palasia datasta
+* Täysin oma ongelmansa
 
 # Datajäämien haasteet
 
 ## Välimuistit
+
+* Datan palasia
+* Poistot, näkymiset
+* Suhteellinen vaiva
+
 ## Varmuuskopiot
+
+* Varmuuskopioiden palauttaminen
+* Vanhentuneet tiedot
 
 # Tietoturva osa tietosuoja-asetusta
 
