@@ -68,7 +68,7 @@ Geniem Oy
 
 ## Sijainti
 
-* EU:n ulkopuolinen data
+* ETA-alueen ulkopuolinen data
 * Hajautettu data
 
 ## Varmuuskopiointikäytännöt
@@ -79,6 +79,7 @@ Geniem Oy
 ## Tiedonsiirto
 
 * Mitä kautta ja minne?
+* Siirtovaatimukset
 
 ## Jäämät
 
@@ -100,14 +101,23 @@ Geniem Oy
 
 # Tietoturva osa tietosuoja-asetusta
 
-## Tietojen säilöntä
+## Hyväksi havaitut menetelmät
 
-* Hyväksi havaituin tietoturvamenetelmin
+* Tietojen säilöntä
+* Tietojen muokkaus
+* Tunnistautuminen
 
 # Käyttäjän näkökulma
 
 ## Omat tiedot saatavilla
+
+* Näen mitä kerätään
+* Näen mitä on kerätty
+
 ## Tietoturvanäkemykset taatummat
+
+* Pienempi vaikutus tietomurroilla
+* Taatumpi tiedottaminen murroista
 
 # The End
  
