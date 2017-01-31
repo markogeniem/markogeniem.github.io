@@ -11,57 +11,56 @@ Software Architect
 Geniem Oy
 
 # Tietosuoja-asetus teknologian kannalta
-<div class="notes">
-Mihin teknologisiin elementteihin asetus vaikuttaa
-</div>
+
 ## Yhteydet
 
-* Yhteydet palvelinten välillä
-* Yhteydet käyttäjien ja palvelinten välillä
-* Yhteydet ulkoisten käyttäjien välillä
+* palvelinten välillä
+* käyttäjien ja palvelinten välillä
+* ulkoisten käyttäjien välillä
 
 <div class="notes">
-Mihin teknologisiin elementteihin asetus vaikuttaa
+Mihin teknologisiin elementteihin asetus vaikuttaa?
 </div>
 
 ## Varastot
 
-* Varmuuskopiot
-* Välimuistit
-* Tiedonsiirrot
+* varmuuskopiot
+* välimuistit
+* tiedonsiirrot
 
 <div class="notes">
-Mihin teknologisiin elementteihin asetus vaikuttaa
+Mihin teknologisiin elementteihin asetus vaikuttaa?
 </div>
 
 ## Oikeudet
 
-* Käsittelijät 
-* Estot
+* käsittelijät 
+* estot
 
 <div class="notes">
-Murehdittava myös teknologiapuolella sovellus- ja järjestelmätason pääsyt
--Adminit
--Kannat
--Järjestelmät
+Murehdittava myös teknologiapuolella sovellus- ja järjestelmätason pääsyt.
+
+-adminit
+-kannat
+-järjestelmät
 </div>
 
 ## Dokumentit
 
-* Valmiuksien osoittaminen
-* Prosessien osoittaminen
+* valmiuksien osoittaminen
+* prosessien osoittaminen
 
 <div class="notes">
-Auditoinnin perusteet, dokumentointi, osoitusvelvollisuus
-Esimerkki seuraavassa
+Auditoinnin perusteet, dokumentointi, osoitusvelvollisuus.
+Esimerkki seuraavassa slidessä.
 </div>
 
 ## Auditointi
 
-* Ketä teki?
-* Mitä teki?
-* Koska teki?
-* Mille teki?
+* ketä teki?
+* mitä teki?
+* koska teki?
+* mille teki?
 
 <div class="notes">
 Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toimenpiteistä. Todennettavissa.
@@ -73,66 +72,76 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 
 ## Suostumus tietojen keräämiseen
 
-* Poisvedettävissä
-* Opt-in, ei opt-out
+* poisvedettävissä
+* opt-in, ei opt-out
 
 ## Tietojen kerääminen
 
-* Minimointi
-* Osoitusvelvollisuus
+* minimointi
+* osoitusvelvollisuus
 
 ## Omien tietojen siirto
 
-* Koneluettavassa muodossa oleva data
-* Saatavissa käyttäjän pyynnöstä
-* Käyttäjää koskeva henkilötieto
-* Käyttäjän syöttämä henkilötieto
+* tiedot tarjottava koneluettavassa muodossa
+* saatavissa käyttäjän pyynnöstä
+* käyttäjää koskeva henkilötieto
+* käyttäjän syöttämä henkilötieto
+* käyttäjään yhdistettävä tieto
 
 <div class="notes">
-Itselleen tai toiselle rekisterinpitäjälle/käsittelijälle
+Itselleen tai toiselle rekisterinpitäjälle/käsittelijälle.
+
 Koneluettava? JSON, XML, CSV - ihan sama.
-Automaatio helpottaa
+
+Automaatio helpottaa elämää.
 </div>
 
 ## Omien tietojen poisto
 
-* Poistettava pyydettäessä
-* Suurempi ongelma olemassaolevissa järjestelmissä
+* poistettava pyydettäessä
+* suurempi ongelma olemassaolevissa järjestelmissä
 
 <div class="notes">
-Poisto vanhassa voi rikkoa sisällön täysin. Relaatiokannat.
+Poisto vanhassa voi rikkoa sisällön täysin. 
+
+Relaatiokannat.
 </div>
 
 ## Omien tietojen päivittäminen ja ajantasaisuus
 
-* Ei vanhaa/viallista henkilötietoa
-* Henkilötiedot päivitettävissä
+* ei vanhentunutta henkilötietoa
+* henkilötiedot päivitettävissä
 
 <div class="notes">
-Ulkoiset datalähteet, backupit, jne. Backupeista lisää myöhemmin.
+Ulkoiset datalähteet, backupit, jne. 
+
+Backupeista lisää myöhemmin.
 </div>
 
 ## Rajoitukset ja suostumukset
 
-* Suostumus tietojen keräämiseen
-* Suostumus tietojen käsittelyyn
-* Alaikäisiltä kerättävä data (13v-16v)
-* Vanhempien suostumus
+* suostumus tietojen keräämiseen
+* suostumus tietojen käsittelyyn
+* alaikäisiltä kerättävä data (13v-16v)
+* vanhempien suostumus
 
 <div class="notes">
 Esim oikeudellisen vaateen takia voidaan ohittaa käsittelyesto.
+
 Miten todentaa vanhempien suostumus? 
-2014 Facebook arvioitu n. 180k 16v ja alle
+
+2014 Facebook käyttäjiä arvioitu n. 180k 16v ja alle.
 </div>
 
 ## Automaatio
 
-* Profilointi
-* Päätelmät
+* profilointi
+* päätelmät
 
 <div class="notes">
-Kerrottava mitä tehty, Käyttäjä voi vastustaa
-Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys
+Kerrottava mitä tehty, Käyttäjä voi vastustaa.
+
+Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 </div>
 
 # Pilvipalveluiden ja SaaS-palveluiden rooli
@@ -140,79 +149,95 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys
 ## Sijainti
 
 * ETA-alueen ulkopuolinen data
-* Hajautettu data
+* hajautettu data
 
 <div class="notes">
-Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet
+Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet.
 </div>
 
 ## Varmuuskopiointikäytännöt
 
-* Mitä säilytetään oikeasti, ja miten
-* Turvalliset poistot
+* mitä oikeasti säilytetään
+* miten säilytetään
+* turvalliset poistot
 
 <div class="notes">
-Näkyvät ja näkymättömät backupit, laitteiden poistot
+Näkyvät ja näkymättömät backupit, laitteiden poistot.
 </div>
 
 ## Tiedonsiirto
 
-* Mitä kautta ja minne?
-* Siirtovaatimukset
+* mitä kautta ja minne?
+* siirtovaatimukset
 
 <div class="notes">
-Tietoturva siirrossakin
-Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää
+Tietoturva siirrossakin.
+
+Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.
 </div>
 
 ## Jäämät
 
-* Palasia datasta
-* Täysin oma ongelmansa
+* palasia datasta
+* täysin oma ongelmansa
 
 <div class="notes">
-
+Enemmän seuraavaksi.
 </div>
 
 # Datajäämien haasteet
 
 ## Välimuistit
 
-* Datan palasia
-* Poistot, näkymiset
-* Suhteellinen vaiva
+* datan palasia
+* poistot
+* näkymät
+* suhteellinen vaiva
 
 <div class="notes">
+Välimuistit:
 
+-Kooditaso
+-Kääntötaso
+-Palvelut
+-Selaimet
+-Kannat
 </div>
 
 ## Varmuuskopiot
 
-* Varmuuskopioiden palauttaminen
-* Vanhentuneet tiedot
+* varmuuskopioiden palauttaminen
+* vanhentuneet tiedot
 
 <div class="notes">
-
+Vikatilanteet voivat aiheuttaa ongelmia. 
+Palauttaminen voi ylikirjoittaa muuttuneita tietoja.
+Erillinen säilyttäminen ja kahdennukset.
 </div>
 
 # Tietoturva osa tietosuoja-asetusta
 
 ## Hyväksi havaitut menetelmät
 
-* Tietojen säilöntä
-* Tietojen muokkaus
-* Tunnistautuminen
+* tietojen säilöntä
+* tietojen muokkaus
+* tunnistautuminen
 
 <div class="notes">
-
+-Salaaminen
+-Hashit
+-Pääsyrajoitukset
+-Vahva tunnistautuminen ja vahvistusmailit
 </div>
 
 # Käyttäjän näkökulma
 
 ## Omat tiedot saatavilla
 
-* Näen mitä kerätään
-* Näen mitä on kerätty
+* näen mitä kerätään
+* näen mitä on kerätty
+* näen mitä tiedoilla tehdään
+* pystyn vaikuttamaan
 
 <div class="notes">
 
@@ -220,11 +245,12 @@ Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää
 
 ## Tietoturvanäkemykset taatummat
 
-* Pienempi vaikutus tietomurroilla
-* Taatumpi tiedottaminen murroista
+* tietomurtojen vaikutusten minimointi
+* murroista tiedottaminen
 
 <div class="notes">
-
+-Ei niin isoa uhkaa muiden palvelujen turvallisuudelle
+-Saa oikeasti tietoa eikä sitä pimitetä
 </div>
 
 # The End
