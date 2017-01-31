@@ -96,17 +96,6 @@ Koneluettava? JSON, XML, CSV - ihan sama.
 Automaatio helpottaa elämää.
 </div>
 
-## Omien tietojen poisto
-
-* poistettava pyydettäessä
-* suurempi ongelma olemassaolevissa järjestelmissä
-
-<div class="notes">
-Poisto vanhassa voi rikkoa sisällön täysin. 
-
-Relaatiokannat.
-</div>
-
 ## Omien tietojen päivittäminen ja ajantasaisuus
 
 * ei vanhentunutta henkilötietoa
@@ -116,6 +105,17 @@ Relaatiokannat.
 Ulkoiset datalähteet, backupit, jne. 
 
 Backupeista lisää myöhemmin.
+</div>
+
+## Omien tietojen poisto
+
+* poistettava pyydettäessä
+* suurempi ongelma olemassaolevissa järjestelmissä
+
+<div class="notes">
+Poisto vanhassa voi rikkoa sisällön täysin. 
+
+Relaatiokannat.
 </div>
 
 ## Rajoitukset ja suostumukset
@@ -133,7 +133,7 @@ Miten todentaa vanhempien suostumus?
 2014 Facebook käyttäjiä arvioitu n. 180k 16v ja alle.
 </div>
 
-## Automaatio
+## Profilointi
 
 * profilointi
 * päätelmät
@@ -142,6 +142,17 @@ Miten todentaa vanhempien suostumus?
 Kerrottava mitä tehty, Käyttäjä voi vastustaa.
 
 Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
+</div>
+
+## Käyttäjän näkökulma
+
+* näen mitä kerätään
+* näen mitä on kerätty
+* näen mitä tiedoilla tehdään
+* pystyn vaikuttamaan
+
+<div class="notes">
+
 </div>
 
 # Pilvipalveluiden ja SaaS-palveluiden rooli
@@ -230,19 +241,6 @@ Erillinen säilyttäminen ja kahdennukset.
 -Hashit
 -Pääsyrajoitukset
 -Vahva tunnistautuminen ja vahvistusmailit
-</div>
-
-# Käyttäjän näkökulma
-
-## Omat tiedot saatavilla
-
-* näen mitä kerätään
-* näen mitä on kerätty
-* näen mitä tiedoilla tehdään
-* pystyn vaikuttamaan
-
-<div class="notes">
-
 </div>
 
 ## Tietoturvanäkemykset
