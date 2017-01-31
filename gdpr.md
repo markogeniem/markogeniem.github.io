@@ -11,7 +11,9 @@ Software Architect
 Geniem Oy
 
 # Tietosuoja-asetus teknologian kannalta
-
+<div class="notes">
+Mihin teknologisiin elementteihin asetus vaikuttaa
+</div>
 ## Yhteydet
 
 * Yhteydet palvelinten välillä
