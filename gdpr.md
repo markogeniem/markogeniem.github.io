@@ -146,6 +146,8 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 
 # Pilvipalveluiden ja SaaS-palveluiden rooli
 
+## Pilvipalvelut {data-background-image="gdpr/img/awsarch.png" data-background-size=contain}
+
 ## Sijainti
 
 * ETA-alueen ulkopuolinen data
@@ -243,7 +245,7 @@ Erillinen säilyttäminen ja kahdennukset.
 
 </div>
 
-## Tietoturvanäkemykset taatummat
+## Tietoturvanäkemykset
 
 * tietomurtojen vaikutusten minimointi
 * murroista tiedottaminen
