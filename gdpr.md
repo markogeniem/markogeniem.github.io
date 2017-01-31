@@ -10,6 +10,8 @@ Software Architect
 
 Geniem Oy
 
+## {data-background-image="gdpr/img/mainpoints.png" data-background-size=contain}
+
 # Tietosuoja-asetus teknologian kannalta
 
 ## Yhteydet
@@ -70,6 +72,8 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 
 # Järjestelmän suunnittelu käyttäjän oikeuksien kannalta
 
+## {data-background-image="gdpr/img/mainpoints.png" data-background-size=contain}
+
 ## Suostumus tietojen keräämiseen
 
 * poisvedettävissä
@@ -77,6 +81,7 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 
 <div class="notes">
 Tästä eteenpäin kerrataan tarkemmin mitä vaatimuksia tulee ja miten ne vaikuttavat.
+Privacy by design
 </div>
 
 ## Tietojen kerääminen
@@ -160,6 +165,8 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 </div>
 
 # Sovellustekninen taso
+
+## {data-background-image="gdpr/img/mainpoints.png" data-background-size=contain}
 
 ## {data-background-image="gdpr/img/awsarch.png" data-background-size=contain}
 
