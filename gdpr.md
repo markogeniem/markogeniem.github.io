@@ -74,12 +74,20 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 * Poisvedettävissä
 * Opt-in, ei opt-out
 
+## Tietojen kerääminen
+
+* Minimointi
+* Osoitusvelvollisuus
+
 ## Omien tietojen siirto
 
 * Koneluettavassa muodossa oleva data
 * Saatavissa käyttäjän pyynnöstä
+* Käyttäjää koskeva henkilötieto
+* Käyttäjän syöttämä henkilötieto
 
 <div class="notes">
+Itselleen tai toiselle rekisterinpitäjälle/käsittelijälle
 Koneluettava? JSON, XML, CSV - ihan sama.
 Automaatio helpottaa
 </div>
@@ -104,10 +112,13 @@ Ulkoiset datalähteet, backupit, jne. Backupeista lisää myöhemmin.
 
 ## Rajoitukset ja suostumukset
 
+* Suostumus tietojen keräämiseen
+* Suostumus tietojen käsittelyyn
 * Alaikäisiltä kerättävä data (13v-16v)
 * Vanhempien suostumus
 
 <div class="notes">
+Esim oikeudellisen vaateen takia voidaan ohittaa käsittelyesto.
 Miten todentaa vanhempien suostumus? 
 2014 Facebook arvioitu n. 180k 16v ja alle
 </div>
@@ -118,7 +129,8 @@ Miten todentaa vanhempien suostumus?
 * Päätelmät
 
 <div class="notes">
-
+Kerrottava mitä tehty, Käyttäjä voi vastustaa
+Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys
 </div>
 
 # Pilvipalveluiden ja SaaS-palveluiden rooli
@@ -129,7 +141,7 @@ Miten todentaa vanhempien suostumus?
 * Hajautettu data
 
 <div class="notes">
-
+Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet
 </div>
 
 ## Varmuuskopiointikäytännöt
@@ -138,7 +150,7 @@ Miten todentaa vanhempien suostumus?
 * Turvalliset poistot
 
 <div class="notes">
-
+Näkyvät ja näkymättömät backupit, laitteiden poistot
 </div>
 
 ## Tiedonsiirto
@@ -147,7 +159,8 @@ Miten todentaa vanhempien suostumus?
 * Siirtovaatimukset
 
 <div class="notes">
-
+Tietoturva siirrossakin
+Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää
 </div>
 
 ## Jäämät
