@@ -75,6 +75,10 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 * poisvedettävissä
 * opt-in, ei opt-out
 
+<div class="notes">
+Tästä eteenpäin kerrataan tarkemmin mitä vaatimuksia tulee ja miten ne vaikuttavat.
+</div>
+
 ## Tietojen kerääminen
 
 * minimointi
@@ -155,7 +159,7 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 
 </div>
 
-# Pilvipalveluiden ja SaaS-palveluiden rooli
+# Sovellustekninen taso
 
 ## {data-background-image="gdpr/img/awsarch.png" data-background-size=contain}
 
