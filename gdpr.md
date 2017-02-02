@@ -241,6 +241,20 @@ Palauttaminen voi ylikirjoittaa muuttuneita tietoja.
 Erillinen säilyttäminen ja kahdennukset.
 </div>
 
+## Kehittäjien laitteet
+
+* logitiedostot
+* tietokantadumpit
+* testidatat
+* ongelmanratkaisun datat
+
+## Ulkoiset palvelut
+
+* lähdekoodivarastot
+* logiaggregaattorit
+* analytiikka
+* DevOps-järjestelmät
+
 # Tietoturva osa tietosuoja-asetusta
 
 ## Hyväksi havaitut menetelmät
