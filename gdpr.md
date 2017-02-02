@@ -200,6 +200,11 @@ Tietoturva siirrossakin.
 Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.
 </div>
 
+## Oikeudet
+
+* käyttäjätyypit
+* sisältörajoitukset
+
 ## Jäämät
 
 * palasia datasta
