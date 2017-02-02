@@ -58,7 +58,7 @@ Auditoinnin perusteet - dokkareilla demonstroidaan.
 
 Dokumentointi, koska käsittelijällä osoitusvelvollisuus GDPR noudattamiseen.
 
-Esimerkki seuraavassa slidessä.
+Esimerkki seuraavassa slidessä. 5min.
 </div>
 
 ## Auditointi
@@ -161,7 +161,7 @@ Miten todentaa vanhempien suostumus?
 <div class="notes">
 Kerrottava mitä tehty, Käyttäjä voi vastustaa.
 
-Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
+Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys. 29min
 </div>
 
 ## Käyttäjän näkökulma
@@ -208,7 +208,7 @@ Näkyvät ja näkymättömät backupit: Pilvipalvelut, palveluntarjoajat, esimer
 <div class="notes">
 Tietoturva pitää olla murehdittuna siirrossakin.
 
-Vastuu päättyy datan saapuessa käyttäjälle jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.
+Vastuu päättyy datan saapuessa käyttäjälle jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää. 34min
 </div>
 
 ## Oikeudet
@@ -227,7 +227,7 @@ Voidaan käyttää eri käyttäjätyyppejä tai sisältörajoituksia.
 * täysin oma ongelmansa
 
 <div class="notes">
-Enemmän seuraavaksi.
+Enemmän seuraavaksi. 37min
 </div>
 
 # Datajäämien haasteet
