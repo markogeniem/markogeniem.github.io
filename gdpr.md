@@ -42,9 +42,11 @@ Mihin teknologisiin elementteihin asetus vaikuttaa?
 <div class="notes">
 Murehdittava myös teknologiapuolella sovellus- ja järjestelmätason pääsyt.
 
-*adminit
-*kannat
-*järjestelmät
+-adminit
+
+-kannat
+
+-järjestelmät
 </div>
 
 ## Dokumentit
