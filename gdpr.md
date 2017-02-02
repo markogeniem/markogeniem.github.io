@@ -72,7 +72,7 @@ Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toim
 
 # Järjestelmän suunnittelu käyttäjän oikeuksien kannalta
 
-## {data-background-image="gdpr/img/mainpoints.png" data-background-size=contain}
+## {data-background-image="gdpr/img/privacybydesign.png" data-background-size=contain}
 
 ## Suostumus tietojen keräämiseen
 
@@ -166,7 +166,7 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 
 # Sovellustekninen taso
 
-## {data-background-image="gdpr/img/mainpoints.png" data-background-size=contain}
+## {data-background-image="gdpr/img/jarjestelma.png" data-background-size=contain}
 
 ## {data-background-image="gdpr/img/awsarch.png" data-background-size=contain}
 
@@ -210,6 +210,8 @@ Enemmän seuraavaksi.
 </div>
 
 # Datajäämien haasteet
+
+## {data-background-image="gdpr/img/datajamat.png" data-background-size=contain}
 
 ## Välimuistit
 
