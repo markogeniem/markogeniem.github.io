@@ -41,7 +41,7 @@
 <ul>
 <li>palvelinten välillä</li>
 <li>käyttäjien ja palvelinten välillä</li>
-<li>ulkoisten käyttäjien välillä</li>
+<li>ulkoisten palvelinten välillä</li>
 </ul>
 <aside class="notes">
 <p>Mihin teknologisiin elementteihin asetus vaikuttaa?</p>
@@ -64,16 +64,19 @@
 </ul>
 <aside class="notes">
 <p>Murehdittava myös teknologiapuolella sovellus- ja järjestelmätason pääsyt.</p>
-<p>-adminit -kannat -järjestelmät</p>
+<p><em>adminit </em>kannat *järjestelmät</p>
 </aside>
 </section><section id="dokumentit" class="slide level2">
 <h1>Dokumentit</h1>
 <ul>
+<li>osoitusvelvollisuus</li>
 <li>valmiuksien osoittaminen</li>
 <li>prosessien osoittaminen</li>
 </ul>
 <aside class="notes">
-<p>Auditoinnin perusteet, dokumentointi, osoitusvelvollisuus. Esimerkki seuraavassa slidessä.</p>
+<p>Auditoinnin perusteet - dokkareilla demonstroidaan.</p>
+<p>Dokumentointi, koska käsittelijällä osoitusvelvollisuus GDPR noudattamiseen.</p>
+<p>Esimerkki seuraavassa slidessä.</p>
 </aside>
 </section><section id="auditointi" class="slide level2">
 <h1>Auditointi</h1>
@@ -84,7 +87,7 @@
 <li>mille teki?</li>
 </ul>
 <aside class="notes">
-<p>Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toimenpiteistä. Todennettavissa.</p>
+<p>Esimerkki. Villen esityksessä Läpinäkyvyys, käyttäjän pyynnöstä operoitava ja kuukauden kuluessa tiedot toimenpiteistä.</p>
 </aside>
 </section></section>
 <section><section id="järjestelmän-suunnittelu-käyttäjän-oikeuksien-kannalta" class="titleslide slide level1"><h1>Järjestelmän suunnittelu käyttäjän oikeuksien kannalta</h1></section><section id="section-1" class="slide level2" data-background-image="gdpr/img/privacybydesign.png" data-background-size="contain">
@@ -104,6 +107,9 @@
 <li>minimointi</li>
 <li>osoitusvelvollisuus</li>
 </ul>
+<aside class="notes">
+<p>Kerätään vain tietoja mitkä oleellisia palvelun käyttöä varten. Esimerkki turhasta datasta. Osoitettava dokumentein, että vain tarvittavaa dataa kerätään.</p>
+</aside>
 </section><section id="omien-tietojen-siirto" class="slide level2">
 <h1>Omien tietojen siirto</h1>
 <ul>
@@ -114,8 +120,9 @@
 <li>käyttäjään yhdistettävä tieto</li>
 </ul>
 <aside class="notes">
-<p>Itselleen tai toiselle rekisterinpitäjälle/käsittelijälle.</p>
+<p>Käyttäjä voi pyytää tiedot itselleen tai toiselle rekisterinpitäjälle/käsittelijälle.</p>
 <p>Koneluettava? JSON, XML, CSV - ihan sama.</p>
+<p>Huomaa yhdistettävät tiedot ja tunnistuksen mahdollistavat tiedot. Esimerkki.</p>
 <p>Automaatio helpottaa elämää.</p>
 </aside>
 </section><section id="omien-tietojen-päivittäminen-ja-ajantasaisuus" class="slide level2">
@@ -125,7 +132,7 @@
 <li>henkilötiedot päivitettävissä</li>
 </ul>
 <aside class="notes">
-<p>Ulkoiset datalähteet, backupit, jne.</p>
+<p>Huomioi myös ulkoiset datalähteet, backupit, jne. Esimerkki ulkoisesta lähteestä aiheutuvasta ongelmasta.</p>
 <p>Backupeista lisää myöhemmin.</p>
 </aside>
 </section><section id="omien-tietojen-poisto" class="slide level2">
@@ -170,7 +177,7 @@
 <li>pystyn vaikuttamaan</li>
 </ul>
 <aside class="notes">
-
+<p>Läpinäkyvyys on plussaa, ja sitoo käyttäjän paremmin palveluun, kun tietää miten ja mihin dataa käytetään.</p>
 </aside>
 </section></section>
 <section><section id="sovellustekninen-taso" class="titleslide slide level1"><h1>Sovellustekninen taso</h1></section><section id="section-2" class="slide level2" data-background-image="gdpr/img/jarjestelma.png" data-background-size="contain">
@@ -184,7 +191,7 @@
 <li>hajautettu data</li>
 </ul>
 <aside class="notes">
-<p>Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet.</p>
+<p>Jos dataa siirretään ETA-alueen ulkopuolelle, pitää olla: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet.</p>
 </aside>
 </section><section id="varmuuskopiointikäytännöt" class="slide level2">
 <h1>Varmuuskopiointikäytännöt</h1>
@@ -194,7 +201,7 @@
 <li>turvalliset poistot</li>
 </ul>
 <aside class="notes">
-<p>Näkyvät ja näkymättömät backupit, laitteiden poistot.</p>
+<p>Näkyvät ja näkymättömät backupit: Pilvipalvelut, palveluntarjoajat, esimerkki. Laitteiden poistot.</p>
 </aside>
 </section><section id="tiedonsiirto" class="slide level2">
 <h1>Tiedonsiirto</h1>
@@ -203,8 +210,8 @@
 <li>siirtovaatimukset</li>
 </ul>
 <aside class="notes">
-<p>Tietoturva siirrossakin.</p>
-<p>Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.</p>
+<p>Tietoturva pitää olla murehdittuna siirrossakin.</p>
+<p>Vastuu päättyy datan saapuessa käyttäjälle jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.</p>
 </aside>
 </section><section id="oikeudet-1" class="slide level2">
 <h1>Oikeudet</h1>
@@ -212,6 +219,9 @@
 <li>käyttäjätyypit</li>
 <li>sisältörajoitukset</li>
 </ul>
+<aside class="notes">
+<p>Henkilötietoihin pääsy vain niillä henkilöillä joille pääsy kuuluukin, ja joilla koulutus. Voidaan käyttää eri käyttäjätyyppejä tai sisältörajoituksia.</p>
+</aside>
 </section><section id="jäämät" class="slide level2">
 <h1>Jäämät</h1>
 <ul>

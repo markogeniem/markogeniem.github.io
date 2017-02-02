@@ -18,7 +18,7 @@ Geniem Oy
 
 * palvelinten välillä
 * käyttäjien ja palvelinten välillä
-* ulkoisten käyttäjien välillä
+* ulkoisten palvelinten välillä
 
 <div class="notes">
 Mihin teknologisiin elementteihin asetus vaikuttaa?
@@ -42,18 +42,22 @@ Mihin teknologisiin elementteihin asetus vaikuttaa?
 <div class="notes">
 Murehdittava myös teknologiapuolella sovellus- ja järjestelmätason pääsyt.
 
--adminit
--kannat
--järjestelmät
+*adminit
+*kannat
+*järjestelmät
 </div>
 
 ## Dokumentit
 
+* osoitusvelvollisuus
 * valmiuksien osoittaminen
 * prosessien osoittaminen
 
 <div class="notes">
-Auditoinnin perusteet, dokumentointi, osoitusvelvollisuus.
+Auditoinnin perusteet - dokkareilla demonstroidaan.
+
+Dokumentointi, koska käsittelijällä osoitusvelvollisuus GDPR noudattamiseen.
+
 Esimerkki seuraavassa slidessä.
 </div>
 
@@ -65,7 +69,7 @@ Esimerkki seuraavassa slidessä.
 * mille teki?
 
 <div class="notes">
-Esimerkki. Muista Läpinäkyvyys Villen jutuista. Kuukauden kuluessa tiedot toimenpiteistä. Todennettavissa.
+Esimerkki. Villen esityksessä Läpinäkyvyys, käyttäjän pyynnöstä operoitava ja kuukauden kuluessa tiedot toimenpiteistä.
 </div>
 
 
@@ -89,6 +93,11 @@ Privacy by design
 * minimointi
 * osoitusvelvollisuus
 
+<div class="notes">
+Kerätään vain tietoja mitkä oleellisia palvelun käyttöä varten. Esimerkki turhasta datasta.
+Osoitettava dokumentein, että vain tarvittavaa dataa kerätään.
+</div>
+
 ## Omien tietojen siirto
 
 * tiedot tarjottava koneluettavassa muodossa
@@ -98,9 +107,11 @@ Privacy by design
 * käyttäjään yhdistettävä tieto
 
 <div class="notes">
-Itselleen tai toiselle rekisterinpitäjälle/käsittelijälle.
+Käyttäjä voi pyytää tiedot itselleen tai toiselle rekisterinpitäjälle/käsittelijälle.
 
 Koneluettava? JSON, XML, CSV - ihan sama.
+
+Huomaa yhdistettävät tiedot ja tunnistuksen mahdollistavat tiedot. Esimerkki.
 
 Automaatio helpottaa elämää.
 </div>
@@ -111,7 +122,7 @@ Automaatio helpottaa elämää.
 * henkilötiedot päivitettävissä
 
 <div class="notes">
-Ulkoiset datalähteet, backupit, jne. 
+Huomioi myös ulkoiset datalähteet, backupit, jne. Esimerkki ulkoisesta lähteestä aiheutuvasta ongelmasta.
 
 Backupeista lisää myöhemmin.
 </div>
@@ -161,7 +172,7 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 * pystyn vaikuttamaan
 
 <div class="notes">
-
+Läpinäkyvyys on plussaa, ja sitoo käyttäjän paremmin palveluun, kun tietää miten ja mihin dataa käytetään.
 </div>
 
 # Sovellustekninen taso
@@ -176,7 +187,7 @@ Ei saa perustua erityisiin henkilötietoryhmiin, esim etnisyys.
 * hajautettu data
 
 <div class="notes">
-Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet.
+Jos dataa siirretään ETA-alueen ulkopuolelle, pitää olla: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset suojatoimet.
 </div>
 
 ## Varmuuskopiointikäytännöt
@@ -186,7 +197,7 @@ Jos ulkopuolelle: Komission hyväksyntä, Käyttäjän suostumus, asianmukaiset 
 * turvalliset poistot
 
 <div class="notes">
-Näkyvät ja näkymättömät backupit, laitteiden poistot.
+Näkyvät ja näkymättömät backupit: Pilvipalvelut, palveluntarjoajat, esimerkki. Laitteiden poistot.
 </div>
 
 ## Tiedonsiirto
@@ -195,15 +206,20 @@ Näkyvät ja näkymättömät backupit, laitteiden poistot.
 * siirtovaatimukset
 
 <div class="notes">
-Tietoturva siirrossakin.
+Tietoturva pitää olla murehdittuna siirrossakin.
 
-Vastuu päättyy jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.
+Vastuu päättyy datan saapuessa käyttäjälle jos käyttäjä pyytänyt siirron, ei jos osa järjestelmää.
 </div>
 
 ## Oikeudet
 
 * käyttäjätyypit
 * sisältörajoitukset
+
+<div class="notes">
+Henkilötietoihin pääsy vain niillä henkilöillä joille pääsy kuuluukin, ja joilla koulutus.
+Voidaan käyttää eri käyttäjätyyppejä tai sisältörajoituksia.
+</div>
 
 ## Jäämät
 
